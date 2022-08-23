@@ -12,7 +12,7 @@ export default function Home({ posts }) {
     <>
       <Button variant='contained'>hello</Button>
       {posts.map((post, i) => {
-        return <Post post={post} />;
+        return <Post key={i} post={post} />;
       })}
     </>
   );
