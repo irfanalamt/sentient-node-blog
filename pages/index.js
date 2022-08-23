@@ -25,7 +25,7 @@ export default function Home({ posts }) {
           align='left'
           variant='h5'
         >
-          I'm Irfan. Welcome to my blog!
+          {`I'm Irfan. Welcome to my blog!`}
         </Typography>
         <Typography
           sx={{ mx: 2, color: 'white', fontSize: '1.2rem' }}
@@ -39,7 +39,7 @@ export default function Home({ posts }) {
           variant='body1'
           align='left'
         >
-          #PassionatelyCurious
+          {`#PassionatelyCurious`}
         </Typography>
       </Paper>
       <Container sx={{ display: 'flex' }}>
