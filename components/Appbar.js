@@ -3,7 +3,7 @@ import Face6RoundedIcon from '@mui/icons-material/Face6Rounded';
 
 const Appbar = () => {
   return (
-    <AppBar sx={{ mb: 2, backgroundColor: '#4897d8' }} position='static'>
+    <AppBar sx={{ mb: 1, backgroundColor: '#4897d8' }} position='static'>
       <Container sx={{ display: 'flex', alignItems: 'center' }}>
         <Tooltip title=''>
           <Typography
@@ -14,7 +14,6 @@ const Appbar = () => {
             sx={{
               mr: 2,
               my: 2,
-              display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -30,6 +29,7 @@ const Appbar = () => {
                 backgroundColor: '#efebe9',
                 boxShadow: 1,
                 borderRadius: 5,
+                fontSize: 18,
               }}
             />
           </Typography>

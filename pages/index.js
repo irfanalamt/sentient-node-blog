@@ -1,4 +1,4 @@
-import { Button, Container } from '@mui/material';
+import { Box, Button, Container, Paper, Typography } from '@mui/material';
 import Head from 'next/head';
 import Image from 'next/image';
 import fs from 'fs';
@@ -10,9 +10,38 @@ export default function Home({ posts }) {
   console.log(posts);
   return (
     <>
-      <Button color='secondary' variant='contained'>
-        hello
-      </Button>
+      <Paper
+        sx={{
+          backgroundImage: `url(/images/walls/1.jpg)`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          height: '30vh',
+          padding: 1,
+        }}
+      >
+        <Typography
+          sx={{ color: 'white', mt: 2, mx: 2, fontSize: '2rem' }}
+          align='left'
+          variant='h5'
+        >
+          I'm Irfan. Welcome to my blog!
+        </Typography>
+        <Typography
+          sx={{ mx: 2, color: 'white', fontSize: '1.2rem' }}
+          variant='subtitle1'
+          align='left'
+        >
+          Here I inscribe things that bring me awe.
+        </Typography>
+        <Typography
+          sx={{ mx: 2, color: 'white', fontSize: '1rem' }}
+          variant='body1'
+          align='left'
+        >
+          #PassionatelyCurious
+        </Typography>
+      </Paper>
       <Container sx={{ display: 'flex' }}>
         {posts.map((post, i) => {
           return <Post key={i} post={post} />;
