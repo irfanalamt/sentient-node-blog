@@ -1,7 +1,7 @@
 ---
 title: 'hello post'
 date: 'August 23 2890'
-excerpt: 'haha'
+excerpt: 'haha hello'
 cover_image: '/images/posts/img1.jpg'
 ---
 

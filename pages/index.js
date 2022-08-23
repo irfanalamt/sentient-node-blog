@@ -1,4 +1,4 @@
-import { Button } from '@mui/material';
+import { Button, Container } from '@mui/material';
 import Head from 'next/head';
 import Image from 'next/image';
 import fs from 'fs';
@@ -10,10 +10,14 @@ export default function Home({ posts }) {
   console.log(posts);
   return (
     <>
-      <Button variant='contained'>hello</Button>
-      {posts.map((post, i) => {
-        return <Post key={i} post={post} />;
-      })}
+      <Button color='secondary' variant='contained'>
+        hello
+      </Button>
+      <Container sx={{ display: 'flex' }}>
+        {posts.map((post, i) => {
+          return <Post key={i} post={post} />;
+        })}
+      </Container>
     </>
   );
 }

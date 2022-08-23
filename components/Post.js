@@ -1,21 +1,43 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import {
+  Button,
+  Card,
+  CardHeader,
+  Typography,
+  CardMedia,
+  CardContent,
+  CardActions,
+} from '@mui/material';
 
 const Post = ({ post }) => {
   return (
-    <>
-      <Image
-        src={post.frontMatter.cover_image}
+    <Card sx={{ maxWidth: 300, m: 2, px: 1 }}>
+      <CardHeader
+        disableTypography={true}
+        title={
+          <Typography gutterBottom variant='h6'>
+            {post.frontMatter.title}
+          </Typography>
+        }
+      ></CardHeader>
+      <CardMedia
+        component='img'
+        height='150'
+        image={post.frontMatter.cover_image}
         alt=''
-        width={100}
-        height={100}
       />
-      <h3>{post.frontMatter.title}</h3>
-      <p>{post.frontMatter.excerpt}</p>
-      <Link href={`/blog/${post.slug}`}>
-        <a>Read more</a>
-      </Link>
-    </>
+      <CardContent>
+        <Typography variant='body2'>{post.frontMatter.excerpt}</Typography>
+      </CardContent>
+      <CardActions>
+        <Link href={`/blog/${post.slug}`}>
+          <Button color='secondary' variant='contained' size='small'>
+            Read more
+          </Button>
+        </Link>
+      </CardActions>
+    </Card>
   );
 };
 
