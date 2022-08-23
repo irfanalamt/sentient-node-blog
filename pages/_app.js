@@ -25,7 +25,7 @@ export default function MyApp(props) {
         <CssBaseline />
         <Appbar />
         <Component {...pageProps} />
-        <Footer title='Sentient Node' description={`Irfan's Blog`} />
+        <Footer title='Sentient Node' description={``} />
       </ThemeProvider>
     </CacheProvider>
   );

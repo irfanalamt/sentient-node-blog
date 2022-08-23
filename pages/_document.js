@@ -3,6 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 import createEmotionServer from '@emotion/server/create-instance';
 import theme from '../src/theme';
 import createEmotionCache from '../src/createEmotionCache';
+import Face6RoundedIcon from '@mui/icons-material/Face6Rounded';
 
 export default class MyDocument extends Document {
   render() {

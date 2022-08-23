@@ -29,7 +29,7 @@ function Footer({ description, title }) {
     >
       <Container maxWidth='xs'>
         <Typography
-          sx={{ fontFamily: 'monospace' }}
+          sx={{ fontFamily: 'monospace', fontSize: '1rem' }}
           variant='subtitle2'
           align='center'
           gutterBottom
@@ -37,16 +37,28 @@ function Footer({ description, title }) {
           {title}
           <Face6RoundedIcon sx={{ fontSize: 14 }} />
         </Typography>
-        <Button sx={{ color: 'black' }} size='medium' href='/about'>
+        <Button
+          sx={{ color: 'black', fontSize: 14 }}
+          size='medium'
+          href='/about'
+        >
           About
         </Button>
         <Typography
+          sx={{ fontSize: 14 }}
           variant='subtitle1'
           align='center'
           color='text.secondary'
           component='p'
         >
           {description}
+        </Typography>
+        <Typography
+          sx={{ fontSize: 14 }}
+          color='text.secondary'
+          variant='subtitle2'
+        >
+          irfanalamt@gmail.com
         </Typography>
         <Copyright />
       </Container>
