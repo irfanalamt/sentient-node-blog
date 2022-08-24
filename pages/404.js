@@ -25,25 +25,24 @@ const Error404 = () => {
       >
         Error 404
       </Typography>
-      <Box sx={{ display: 'flex', alignItems: 'center', mt: 1 }}>
-        <Typography sx={{ fontSize: '2rem' }} variant='body1'>
-          {`Lost? Let's return`}
-        </Typography>
-        <Link href='/'>
-          <Tooltip title='HOME'>
-            <Typography
-              sx={{
-                fontSize: '2rem',
-                ml: 1,
-                textDecoration: 'underline',
-                color: '#FFDB5C',
-              }}
-            >
-              home.
-            </Typography>
-          </Tooltip>
-        </Link>
-      </Box>
+
+      <Typography sx={{ fontSize: '2rem' }} variant='body1'>
+        {`Lost? Let's return`}
+      </Typography>
+      <Link href='/'>
+        <Tooltip title='HOME'>
+          <Typography
+            sx={{
+              fontSize: '2rem',
+              ml: 1,
+              textDecoration: 'underline',
+              color: '#FFDB5C',
+            }}
+          >
+            home.
+          </Typography>
+        </Tooltip>
+      </Link>
     </Container>
   );
 };
