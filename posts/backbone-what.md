@@ -6,7 +6,7 @@ cover_image: '/images/posts/img2.jpg'
 id: 2
 ---
 
-<img src='/images/posts/img2.jpg' width='250' alt='octopus' />
+<img src='/images/posts/img2.jpg' width='260' alt='octopus' />
 
 - These amazing beings do not just have a single brain; each of their arms contains a mini-brain. Each arm is capable of acting independently(touch, taste, movement).
 - They have control over their actions at both the local and central levels.

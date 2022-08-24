@@ -6,7 +6,7 @@ cover_image: '/images/posts/img1.jpg'
 id: 1
 ---
 
-![giant squid](/images/content/giant-squid.jpg)
+<img src='/images/content/giant-squid.jpg' width='260' alt='giant-squid' />
 
 - Contrary to what you might expect, a 100 times heavier animal doesn't require 100 times more energy.
 - Kleiber's Law :
