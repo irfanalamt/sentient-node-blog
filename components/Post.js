@@ -50,7 +50,7 @@ const Post = ({ post }) => {
       <CardActions>
         <Link href={`/blog/${post.slug}`}>
           <Button
-            sx={{ color: '#757575' }}
+            sx={{ color: '#757575', mx: 1 }}
             color='secondary'
             variant='contained'
             size='small'

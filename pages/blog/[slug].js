@@ -4,8 +4,12 @@ import matter from 'gray-matter';
 import { marked } from 'marked';
 import Link from 'next/link';
 import { Box, Button, Container, Paper, Typography } from '@mui/material';
+import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
+import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
+import { useState } from 'react';
 
 const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
+  const [ifLiked, setIfLiked] = useState(false);
   const parsedContent = marked.parse(content);
   return (
     <Container>
@@ -29,16 +33,44 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
         sx={{ px: 3, py: 1, my: 1 }}
         dangerouslySetInnerHTML={{ __html: parsedContent }}
       ></Paper>
-
-      <Link href='/'>
-        <Button
-          sx={{ color: 'white', backgroundColor: '#F8A055' }}
-          color='secondary'
-          variant='contained'
-        >
-          Go back
-        </Button>
-      </Link>
+      <Box
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+        }}
+      >
+        <Link href='/'>
+          <Button
+            sx={{ color: 'white', backgroundColor: '#F8A055' }}
+            color='secondary'
+            variant='contained'
+          >
+            Go back
+          </Button>
+        </Link>
+        {ifLiked ? (
+          <FavoriteRoundedIcon
+            onClick={() => {
+              setIfLiked(false);
+            }}
+            sx={{
+              fontSize: '2rem',
+              mx: 1,
+              color: '#ad1457',
+              boxShadow: 1,
+              borderRadius: 5,
+            }}
+          />
+        ) : (
+          <FavoriteBorderRoundedIcon
+            onClick={() => {
+              setIfLiked(true);
+            }}
+            sx={{ fontSize: '2rem', mx: 1, color: '#ad1457' }}
+          />
+        )}
+      </Box>
     </Container>
   );
 };

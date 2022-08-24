@@ -12,6 +12,6 @@ id: 2
 - Have control over their actions at both the local and central levels.
 - Three hearts. One heart circulates blood throughout the body, while the other two pumps it through the gills to absorb oxygen.
 - Largest brain-to-body ratio of any invertibrate. Larger than many vertebrates but not mammals.
-- Can problem-solve and use tools.
+- Can problem-solve, plan for the future and use tools.
 - Capable of play! Playing is something intelligent animals do.
-- Overall, they are fantastic creatures, and it is a privilege to share this planet with them.
+- It is a privilege to share this planet with them.
