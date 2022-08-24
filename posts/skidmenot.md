@@ -2,7 +2,7 @@
 title: 'Skid me not'
 date: 'August 24 2022'
 excerpt: 'Static friction is essential to turning a wheeled vehicle.
-You lose static friction the moment you start skidding.'
+When skidding begins, static friction is lost.'
 cover_image: '/images/posts/img3.jpg'
 id: 3
 ---
