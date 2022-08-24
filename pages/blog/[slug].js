@@ -3,18 +3,41 @@ import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import Link from 'next/link';
+import { Box, Button, Container, Typography } from '@mui/material';
 
 const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
   const parsedContent = marked.parse(content);
   return (
-    <>
-      <h1>You clicked a post</h1>
-      <h3>{title}</h3>
+    <Container>
+      <Typography
+        sx={{
+          fontSize: '1.8rem',
+          fontWeight: 'bold',
+          fontFamily: 'sans-serif',
+          width: 'max-content',
+          borderRadius: 1,
+          px: 1,
+          backgroundColor: '#FFDB5C',
+        }}
+        gutterBottom
+        variant='h6'
+      >
+        {title}
+      </Typography>
+
       <div name='post-body'>
-        <div dangerouslySetInnerHTML={{ __html: parsedContent }}></div>
+        <Box dangerouslySetInnerHTML={{ __html: parsedContent }}></Box>
       </div>
-      <Link href='/'>Go back</Link>
-    </>
+      <Link href='/'>
+        <Button
+          sx={{ color: 'white', backgroundColor: '#F8A055' }}
+          color='secondary'
+          variant='contained'
+        >
+          Go back
+        </Button>
+      </Link>
+    </Container>
   );
 };
 

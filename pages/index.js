@@ -5,6 +5,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Post from '../components/Post';
+import Grid from '@mui/material/Unstable_Grid2';
 
 export default function Home({ posts }) {
   console.log(posts);
@@ -42,11 +43,15 @@ export default function Home({ posts }) {
           {`#PassionatelyCurious`}
         </Typography>
       </Paper>
-      <Container sx={{ display: 'flex' }}>
+      <Grid sx={{ justifyContent: 'center' }} container>
         {posts.map((post, i) => {
-          return <Post key={i} post={post} />;
+          return (
+            <Grid sm={12} md={3}>
+              <Post key={i} post={post} />
+            </Grid>
+          );
         })}
-      </Container>
+      </Grid>
     </>
   );
 }
