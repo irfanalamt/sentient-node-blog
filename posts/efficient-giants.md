@@ -1,12 +1,12 @@
 ---
 title: 'Efficient giants'
 date: 'August 23 2022'
-excerpt: 'Energy requirements doesnt scale linearly with body size.'
+excerpt: 'Energy requirements do not scale linearly with body size.'
 cover_image: '/images/posts/img1.jpg'
 id: 1
 ---
 
-<img src='/images/content/giant-squid.jpg' width='260' alt='giant-squid' />
+<img src='/images/content/giant-squid.jpg' width='280' alt='giant-squid' />
 
 - Contrary to what you might expect, a 100 times heavier animal doesn't require 100 times more energy.
 - Kleiber's Law :
