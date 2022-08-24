@@ -27,7 +27,7 @@ const Error404 = () => {
       </Typography>
       <Box sx={{ display: 'flex', alignItems: 'center', mt: 1 }}>
         <Typography sx={{ fontSize: '2rem' }} variant='body1'>
-          Lost? Let's return
+          {`Lost? Let's return`}
         </Typography>
         <Link href='/'>
           <Tooltip title='HOME'>
