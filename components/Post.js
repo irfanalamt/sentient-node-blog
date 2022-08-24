@@ -25,7 +25,7 @@ const Post = ({ post }) => {
               width: 'max-content',
               borderRadius: 1,
               px: 1,
-              backgroundColor: 'white',
+              backgroundColor: '#F8A055',
             }}
             gutterBottom
             variant='h6'
@@ -50,7 +50,7 @@ const Post = ({ post }) => {
       <CardActions>
         <Link href={`/blog/${post.slug}`}>
           <Button
-            sx={{ color: '#212121' }}
+            sx={{ color: '#757575' }}
             color='secondary'
             variant='contained'
             size='small'
