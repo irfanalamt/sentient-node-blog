@@ -3,7 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import Link from 'next/link';
-import { Box, Button, Container, Typography } from '@mui/material';
+import { Box, Button, Container, Paper, Typography } from '@mui/material';
 
 const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
   const parsedContent = marked.parse(content);
@@ -25,9 +25,11 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
         {title}
       </Typography>
 
-      <div name='post-body'>
-        <Box dangerouslySetInnerHTML={{ __html: parsedContent }}></Box>
-      </div>
+      <Paper
+        sx={{ px: 3, py: 1, my: 1 }}
+        dangerouslySetInnerHTML={{ __html: parsedContent }}
+      ></Paper>
+
       <Link href='/'>
         <Button
           sx={{ color: 'white', backgroundColor: '#F8A055' }}

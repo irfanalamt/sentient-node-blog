@@ -76,6 +76,10 @@ export async function getStaticProps() {
   });
 
   return {
-    props: { posts: posts },
+    props: {
+      posts: posts.sort((a, b) => {
+        return b.frontMatter.id - a.frontMatter.id;
+      }),
+    },
   };
 }
