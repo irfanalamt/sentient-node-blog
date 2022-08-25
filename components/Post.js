@@ -13,7 +13,15 @@ import StickyNote2RoundedIcon from '@mui/icons-material/StickyNote2Rounded';
 
 const Post = ({ post }) => {
   return (
-    <Card sx={{ maxWidth: 350, m: 2, py: 1, backgroundColor: '#e1f5fe' }}>
+    <Card
+      sx={{
+        maxWidth: 350,
+        mx: 'auto',
+        my: 2,
+        py: 1,
+        backgroundColor: '#e1f5fe',
+      }}
+    >
       <CardHeader
         disableTypography={true}
         title={

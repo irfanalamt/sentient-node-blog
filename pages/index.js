@@ -46,7 +46,7 @@ export default function Home({ posts }) {
       <Grid sx={{ justifyContent: 'center' }} container>
         {posts.map((post, i) => {
           return (
-            <Grid key={i} sm={12} md={3}>
+            <Grid key={i} sm={12} md={5} lg={4}>
               <Post key={i} post={post} />
             </Grid>
           );
