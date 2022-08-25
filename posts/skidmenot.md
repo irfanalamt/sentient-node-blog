@@ -7,7 +7,7 @@ cover_image: '/images/posts/img3.jpg'
 id: 3
 ---
 
-<img src='/images/posts/img3.jpg' width='330' alt='car-drifting' />
+<img src='/images/posts/img3.jpg' width='315' alt='car-drifting' />
 
 - The engine simply turns and stops the wheel. Friction determines when and where.
 - When skidding instead of rolling, the tyre's point of contact moves relative to the surface. Here dynamic friction takes over.
