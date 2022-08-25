@@ -6,7 +6,7 @@ cover_image: '/images/posts/img4.jpg'
 id: 4
 ---
 
-<img src='/images/posts/img4.jpg' width='330' alt='pigeon-art' />
+<img src='/images/posts/img4.jpg' width='310' alt='pigeon-art' />
 
 - Because of their homing ability, they were ideal for espionage.
   During both World Wars, they were extensively used for this capability.
