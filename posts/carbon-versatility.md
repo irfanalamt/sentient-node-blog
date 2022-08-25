@@ -10,6 +10,6 @@ id: 5
 
 - Carbon's unique chemical properties made all life on Earth possible.
 - Has **4 valence electrons**, allowing it to form 4 single bond, 2 double bonds and a triple bond.
-- Form strong bonds with other atoms including carbon atoms, this allows for formation of complex molecules like DNA, skin, nutrients.
+- Form **strong bonds** with other atoms including Carbon atoms, this allows for formation of complex molecules like DNA, skin, nutrients.
 - All elements in the periodic table column that Carbon occupies also has 4 valence electrons, but the **stability** of the bonds they form is incomparable to Carbon!
-- The **hardest substance** found on Earth is formed by a carbon atom bonded with four other carbon atoms. (Diamond)
+- The **hardest substance** found on Earth is formed by a Carbon atom bonded with four other Carbon atoms. (Diamond)
