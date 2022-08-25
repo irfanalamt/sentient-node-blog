@@ -11,7 +11,7 @@ id: 3
 
 - The engine simply turns and stops the wheel. **Friction** determines when and where.
 - When skidding instead of rolling, the tyre's point of contact moves relative to the surface. Here **dynamic friction** takes over.
-- The anti-lock braking system(**ABS**) employs computer-controlled methods to maintain this range of **static friction**.
+- The anti-lock braking system(**ABS**) uses computer-controlled procedures to keep the vehicle in the **static friction range** rather than the weaker force of dynamic friction.
 - The stopping distance is increased because dynamic friction has a lower value than static friction.
 - The **stopping distance** is proportional to the **square of the velocity**. That is, your stopping distance is squared when you travel twice as fast!
 - Best solution: drive slower.
