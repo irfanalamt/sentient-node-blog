@@ -55,7 +55,7 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
               setIfLiked(false);
             }}
             sx={{
-              fontSize: '2rem',
+              fontSize: '2.2rem',
               mx: 1,
               color: '#ad1457',
               boxShadow: 1,
@@ -67,7 +67,13 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
             onClick={() => {
               setIfLiked(true);
             }}
-            sx={{ fontSize: '2rem', mx: 1, color: '#ad1457' }}
+            sx={{
+              fontSize: '2.2rem',
+              mx: 1,
+              color: '#ad1457',
+              boxShadow: 1,
+              borderRadius: 5,
+            }}
           />
         )}
       </Box>
