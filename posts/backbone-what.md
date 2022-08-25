@@ -6,7 +6,7 @@ cover_image: '/images/posts/img2.jpg'
 id: 2
 ---
 
-<img src='/images/posts/img2.jpg' width='280' alt='octopus' />
+<img src='/images/posts/img2.jpg' width='330' alt='octopus' />
 
 - In addition to a central brain; each of their arms contains a mini-brain. Each arm is capable of acting independently(touch, taste, movement).
 - Have control over their actions at both the local and central levels.

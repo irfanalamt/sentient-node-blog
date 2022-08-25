@@ -30,7 +30,7 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
       </Typography>
 
       <Paper
-        sx={{ pl: 1, pr: 2, py: 1, my: 1 }}
+        sx={{ pl: 1, pr: 3, py: 1, my: 1 }}
         dangerouslySetInnerHTML={{ __html: parsedContent }}
       ></Paper>
       <Box
