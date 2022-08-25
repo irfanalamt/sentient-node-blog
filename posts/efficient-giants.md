@@ -10,7 +10,9 @@ id: 1
 
 - Contrary to what you might expect, a 100 times heavier animal doesn't require 100 times more energy.
 - Kleiber's Law :
-  > an animal's **metabolic rate** scales to the **3⁄4** power of the animal's **mass**.
+
+> an animal's **metabolic rate** scales to the **3⁄4** power of the animal's **mass**.
+
 - This law applies to almost all living things, from blue whales to single cells.
 - That is quite impressive because a simple equation can be applied across the animal and plant kingdoms!
 - The larger an animal is, the more **efficient** it is.

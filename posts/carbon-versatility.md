@@ -1,7 +1,7 @@
 ---
 title: 'Carbon versatility'
 date: 'August 25 2022'
-excerpt: 'Our body composition is 65% of Oxygen by mass. Carbon is just 18%. Despite the elemental makeup of our bodies, we are carbon-based creatures. '
+excerpt: 'Our body composition is 65% of Oxygen by mass. Carbon is just 18%. Despite the elemental makeup of our bodies, we are carbon-based beings. '
 cover_image: '/images/posts/img5.jpg'
 id: 5
 ---
