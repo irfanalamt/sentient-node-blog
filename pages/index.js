@@ -72,7 +72,7 @@ export default function Home({ posts }) {
           animate={{
             opacity: [0, 1, 0, 1, 0],
             transition: {
-              repeat: 4,
+              repeat: 1,
               delay: 3,
               duration: 0.8,
               repeatDelay: 1.2,
@@ -88,7 +88,7 @@ export default function Home({ posts }) {
               backgroundColor: 'white',
               boxShadow: 1,
               borderRadius: 5,
-              fontSize: 20,
+              fontSize: 18,
             }}
           />
         </motion.div>
