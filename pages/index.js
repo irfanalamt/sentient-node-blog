@@ -7,6 +7,8 @@ import matter from 'gray-matter';
 import Post from '../components/Post';
 import Grid from '@mui/material/Unstable_Grid2';
 import { useEffect } from 'react';
+import { motion } from 'framer-motion';
+import Face6RoundedIcon from '@mui/icons-material/Face6Rounded';
 
 export default function Home({ posts }) {
   useEffect(() => {
@@ -36,15 +38,22 @@ export default function Home({ posts }) {
           backgroundPosition: 'center',
           height: '30vh',
           padding: 1,
+          position: 'relative',
         }}
       >
-        <Typography
-          sx={{ color: 'white', mt: 2, mx: 2, fontSize: '2rem' }}
-          align='left'
-          variant='h5'
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, x: [-2, 2, 0] }}
+          transition={{ delay: 0.3, duration: 0.5 }}
         >
-          {`I'm Irfan. Welcome to my blog!`}
-        </Typography>
+          <Typography
+            sx={{ color: 'white', mt: 2, mx: 2, fontSize: '2rem' }}
+            align='left'
+            variant='h5'
+          >
+            {`I'm Irfan. Welcome to my blog!`}
+          </Typography>
+        </motion.div>
         <Typography
           sx={{ mx: 2, color: 'white', fontSize: '1.2rem' }}
           variant='subtitle1'
@@ -59,6 +68,30 @@ export default function Home({ posts }) {
         >
           {`#PassionatelyCurious`}
         </Typography>
+        <motion.div
+          animate={{
+            opacity: [0, 1, 0, 1, 0],
+            transition: {
+              repeat: 4,
+              delay: 3,
+              duration: 0.8,
+              repeatDelay: 1.2,
+            },
+          }}
+        >
+          <Face6RoundedIcon
+            sx={{
+              position: 'absolute',
+              right: 10,
+              bottom: 10,
+              color: 'black',
+              backgroundColor: 'white',
+              boxShadow: 1,
+              borderRadius: 5,
+              fontSize: 20,
+            }}
+          />
+        </motion.div>
       </Paper>
       <Grid sx={{ justifyContent: 'center' }} container>
         {posts.map((post, i) => {
