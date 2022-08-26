@@ -35,8 +35,8 @@ export default function MyApp(props) {
           initial='pageInitial'
           animate='pageAnimate'
           variants={{
-            pageInitial: { opacity: 0 },
-            pageAnimate: { opacity: 1 },
+            pageInitial: { opacity: 0, scale: 0.9, y: 10 },
+            pageAnimate: { opacity: 1, scale: 1, y: [10, -10, 0] },
           }}
         >
           <Component {...pageProps} />{' '}
