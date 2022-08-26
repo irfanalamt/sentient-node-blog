@@ -8,12 +8,18 @@ import theme from '../src/theme';
 import createEmotionCache from '../src/createEmotionCache';
 import Appbar from '../components/Appbar';
 import Footer from '../components/Footer';
+import { motion } from 'framer-motion';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
 
 export default function MyApp(props) {
-  const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
+  const {
+    Component,
+    emotionCache = clientSideEmotionCache,
+    pageProps,
+    router,
+  } = props;
 
   return (
     <CacheProvider value={emotionCache}>
@@ -24,7 +30,17 @@ export default function MyApp(props) {
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
         <Appbar />
-        <Component {...pageProps} />
+        <motion.div
+          key={router.route}
+          initial='pageInitial'
+          animate='pageAnimate'
+          variants={{
+            pageInitial: { opacity: 0 },
+            pageAnimate: { opacity: 1 },
+          }}
+        >
+          <Component {...pageProps} />{' '}
+        </motion.div>
         <Footer title='Sentient Node' description={``} />
       </ThemeProvider>
     </CacheProvider>
