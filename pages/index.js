@@ -6,9 +6,26 @@ import path from 'path';
 import matter from 'gray-matter';
 import Post from '../components/Post';
 import Grid from '@mui/material/Unstable_Grid2';
+import { useEffect } from 'react';
 
 export default function Home({ posts }) {
+  useEffect(() => {
+    handleScrollPosition();
+  }, []);
+
   console.log(posts);
+  function handleClick() {
+    sessionStorage.setItem('scrollPosition', window.pageYOffset);
+  }
+
+  // handle scroll position after content load
+  function handleScrollPosition() {
+    const scrollPosition = sessionStorage.getItem('scrollPosition');
+    if (scrollPosition) {
+      window.scrollTo(0, parseInt(scrollPosition));
+      sessionStorage.removeItem('scrollPosition');
+    }
+  }
   return (
     <>
       <Paper
@@ -47,7 +64,7 @@ export default function Home({ posts }) {
         {posts.map((post, i) => {
           return (
             <Grid key={i} sm={12} md={5} lg={4}>
-              <Post key={i} post={post} />
+              <Post handleClick={handleClick} key={i} post={post} />
             </Grid>
           );
         })}

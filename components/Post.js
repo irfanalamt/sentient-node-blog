@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 import StickyNote2RoundedIcon from '@mui/icons-material/StickyNote2Rounded';
 
-const Post = ({ post }) => {
+const Post = ({ post, handleClick }) => {
   return (
     <Card
       sx={{
@@ -62,6 +62,7 @@ const Post = ({ post }) => {
             color='secondary'
             variant='contained'
             size='small'
+            onClick={handleClick}
           >
             Read more
           </Button>
