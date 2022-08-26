@@ -35,11 +35,11 @@ export default function MyApp(props) {
           initial='pageInitial'
           animate='pageAnimate'
           variants={{
-            pageInitial: { opacity: 0, scale: 0.9, y: 10 },
-            pageAnimate: { opacity: 1, scale: 1, y: [10, -10, 0] },
+            pageInitial: { opacity: 0, scale: 0.95, y: 10 },
+            pageAnimate: { opacity: 1, scale: 1, y: [20, -10, 0] },
           }}
         >
-          <Component {...pageProps} />{' '}
+          <Component {...pageProps} />
         </motion.div>
         <Footer title='Sentient Node' description={``} />
       </ThemeProvider>
