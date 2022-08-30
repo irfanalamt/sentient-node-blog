@@ -12,5 +12,7 @@ id: 7
   It is _not acting in any manner that causes pain or injury to another being._
 - The idea of **sympatheia** served as the cornerstone of their understanding of justice.
 - Marcus Aurelius wrote:
-  > "What is not good for the beehive is not good for the bee."
+
+> "What is not good for the beehive is not good for the bee."
+
 - Throughout history, Stoics have pushed and advocated for justice, often at great personal risk and with great courage, in order to accomplish great things and defend the people and ideas that they cherished.
