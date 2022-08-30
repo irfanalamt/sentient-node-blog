@@ -33,6 +33,7 @@ const Post = ({ post, handleClick }) => {
         py: 1,
         backgroundColor: '#fafafa',
       }}
+      elevation={2}
     >
       <motion.div
         animate={isInView ? 'active' : 'inactive'}
