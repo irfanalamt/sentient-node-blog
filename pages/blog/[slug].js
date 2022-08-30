@@ -3,7 +3,14 @@ import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import Link from 'next/link';
-import { Box, Button, Container, Paper, Typography } from '@mui/material';
+import {
+  Avatar,
+  Box,
+  Button,
+  Container,
+  Paper,
+  Typography,
+} from '@mui/material';
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 import { useState } from 'react';
@@ -50,31 +57,34 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
           </Button>
         </Link>
         {ifLiked ? (
-          <FavoriteRoundedIcon
-            onClick={() => {
-              setIfLiked(false);
-            }}
-            sx={{
-              fontSize: '2.2rem',
-              mx: 1,
-              color: '#ad1457',
-              boxShadow: 1,
-              borderRadius: 5,
-            }}
-          />
+          <Avatar sx={{ backgroundColor: '#dcedc8', boxShadow: 1 }}>
+            <FavoriteRoundedIcon
+              onClick={() => {
+                setIfLiked(false);
+              }}
+              sx={{
+                fontSize: '2.2rem',
+                color: '#ad1457',
+              }}
+            />
+          </Avatar>
         ) : (
-          <FavoriteBorderRoundedIcon
-            onClick={() => {
-              setIfLiked(true);
-            }}
+          <Avatar
             sx={{
-              fontSize: '2.2rem',
-              mx: 1,
-              color: '#ad1457',
+              backgroundColor: '#dcedc8',
               boxShadow: 1,
-              borderRadius: 5,
             }}
-          />
+          >
+            <FavoriteBorderRoundedIcon
+              onClick={() => {
+                setIfLiked(true);
+              }}
+              sx={{
+                fontSize: '2.2rem',
+                color: '#ad1457',
+              }}
+            />
+          </Avatar>
         )}
       </Box>
     </Container>
