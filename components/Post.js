@@ -19,7 +19,7 @@ const Post = ({ post, handleClick }) => {
         mx: 'auto',
         my: 2,
         py: 1,
-        backgroundColor: '#e1f5fe',
+        backgroundColor: '#fafafa',
       }}
     >
       <CardHeader
