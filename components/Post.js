@@ -18,9 +18,9 @@ const Post = ({ post, handleClick }) => {
   const isInView = useInView(inViewRef);
   const variants = {
     active: {
-      y: [4, 0],
+      y: [5, 0],
       opacity: [0.5, 1],
-      transition: { duration: 0.5 },
+      transition: { duration: 0.2, delay: 0.1 },
     },
     inactive: { opacity: [1, 0.5], transition: { duration: 0.2 } },
   };
