@@ -14,8 +14,8 @@ id: 4
 - No one knows exactly how this ability works.
 - Some theories that explain part of this process:
 
-  1. Relies upon the position and angle of the **Sun**.
-  2. Use magnetoreception relying on **Earth's magnetic field**.
-  3. Use **low-frequency infrasound** produced by almost everything, including the oceans and the Earth's crust.
+1. Relies upon the position and angle of the **Sun**.
+2. Use magnetoreception relying on **Earth's magnetic field**.
+3. Use **low-frequency infrasound** produced by almost everything, including the oceans and the Earth's crust.
 
 - Incredibly sophisticated bird that passes the "**mirror test**"! (a test of self-recognition)
