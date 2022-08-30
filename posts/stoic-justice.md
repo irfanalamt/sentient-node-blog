@@ -15,4 +15,4 @@ id: 7
 
 > "What is not good for the beehive is not good for the bee."
 
-- Throughout history, Stoics have pushed and advocated for justice, often at great personal risk and with great courage, in order to accomplish great things and defend the people and ideas that they cherished.
+- To achieve great things and to stand up for the people and ideas they valued, the Stoics have pushed for justice throughout history.
