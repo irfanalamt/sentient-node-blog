@@ -1,4 +1,12 @@
-import { Box, Button, Container, Paper, Typography } from '@mui/material';
+import {
+  Avatar,
+  Box,
+  Button,
+  Chip,
+  Container,
+  Paper,
+  Typography,
+} from '@mui/material';
 import Head from 'next/head';
 import Image from 'next/image';
 import fs from 'fs';
@@ -9,6 +17,12 @@ import Grid from '@mui/material/Unstable_Grid2';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Face6RoundedIcon from '@mui/icons-material/Face6Rounded';
+import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
+import ScienceOutlinedIcon from '@mui/icons-material/ScienceOutlined';
+
+import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
+import NaturePeopleOutlinedIcon from '@mui/icons-material/NaturePeopleOutlined';
+import Diversity1OutlinedIcon from '@mui/icons-material/Diversity1Outlined';
 
 export default function Home({ posts }) {
   useEffect(() => {
@@ -36,7 +50,7 @@ export default function Home({ posts }) {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          height: '30vh',
+          height: 'max-content-height',
           padding: 1,
           position: 'relative',
         }}
@@ -68,6 +82,30 @@ export default function Home({ posts }) {
         >
           {`#PassionatelyCurious`}
         </Typography>
+        <Box sx={{ mx: 2, my: 1, display: 'flex', gap: 1.1 }}>
+          <Avatar sx={{ bgcolor: '#673ab7', boxShadow: 1 }}>
+            <ScienceOutlinedIcon
+              sx={{
+                fontSize: '1.5rem',
+              }}
+            />
+          </Avatar>
+
+          <Avatar sx={{ bgcolor: '#e91e63', boxShadow: 1 }}>
+            <PsychologyAltIcon
+              sx={{
+                fontSize: '1.5rem',
+              }}
+            />
+          </Avatar>
+          <Avatar sx={{ bgcolor: '#cddc39', boxShadow: 1 }}>
+            <Diversity1OutlinedIcon
+              sx={{
+                fontSize: '1.5rem',
+              }}
+            />
+          </Avatar>
+        </Box>
         <motion.div
           animate={{
             opacity: [0, 1, 0, 1, 0],
