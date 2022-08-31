@@ -83,25 +83,36 @@ export default function Home({ posts }) {
           {`#PassionatelyCurious`}
         </Typography>
         <Box sx={{ mx: 2, my: 1, display: 'flex', gap: 1.1 }}>
-          <Avatar sx={{ bgcolor: '#673ab7', boxShadow: 1 }}>
+          <Avatar
+            sx={{ bgcolor: '#673ab7', boxShadow: 1, width: 35, height: 35 }}
+          >
             <ScienceOutlinedIcon
               sx={{
-                fontSize: '1.5rem',
+                fontSize: '1.6rem',
               }}
             />
           </Avatar>
 
-          <Avatar sx={{ bgcolor: '#e91e63', boxShadow: 1 }}>
+          <Avatar
+            sx={{
+              bgcolor: '#e91e63',
+              boxShadow: 1,
+              width: 35,
+              height: 35,
+            }}
+          >
             <PsychologyAltIcon
               sx={{
-                fontSize: '1.5rem',
+                fontSize: '1.6rem',
               }}
             />
           </Avatar>
-          <Avatar sx={{ bgcolor: '#cddc39', boxShadow: 1 }}>
+          <Avatar
+            sx={{ bgcolor: '#cddc39', boxShadow: 1, width: 35, height: 35 }}
+          >
             <Diversity1OutlinedIcon
               sx={{
-                fontSize: '1.5rem',
+                fontSize: '1.4rem',
               }}
             />
           </Avatar>
