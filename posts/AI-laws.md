@@ -15,7 +15,7 @@ id: 7
 #### Some challenges
 
 1.  AI is currently unable to understand the connecting concepts around such laws, such as **‘harm’** and **‘humanity’** and arguably, ‘human’.
-2.  When incorrect assumptions are made about the dataset or the model output during the machine learning process, which results in unfair results. **Bias** can occur during the project's design or during the data collection process, resulting in output that unfairly represents the population. There is also a posibilty of **algorithmic bias.**
+2.  When incorrect assumptions are made about the dataset or the model output during the machine learning process, which results in unfair results. **Bias** can occur during the project's design or during the data collection process, resulting in output that unfairly represents the population. There is also a possibilty of **algorithmic bias.**
 3.  AI, like any other perfectly functional technology, has the potential for evil and can be used for **malicious purposes**.
 4.  We humans itself have differing views on where the ethical lines should be drawn. For eg: The right of a foetus to human life is a hot topic these days. However, in the future, if a pregnant woman has a high risk of dying while giving birth due to a medical condition, should her AI doctor advise abortion? It is important to remember that, while the woman has a better chance of surviving the abortion, the foetus, once born, has more to live for. As a result, the **robot inadvertently harms a human being**.
 
