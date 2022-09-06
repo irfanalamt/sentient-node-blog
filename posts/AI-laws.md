@@ -21,6 +21,6 @@ id: 7
 
 - As robots become more autonomous and AI surpasses human capabilities in many ways, the need for roboethics standards becomes more pressing.
 
-  > "I **dont think** that AI will turn Ultron and rebel against us. **The risk is that it does exactly what we tell it to do.**"
+> "I **dont think** that AI will turn Ultron and rebel against us. **The risk is that it does exactly what we tell it to do.**"
 
-  [functional morality](https://go.gale.com/ps/i.do?p=AONE&u=googlescholar&id=GALE|A427482858&v=2.1&it=r&sid=AONE&asid=e03dd0dd)
+[functional morality](https://go.gale.com/ps/i.do?p=AONE&u=googlescholar&id=GALE|A427482858&v=2.1&it=r&sid=AONE&asid=e03dd0dd)
