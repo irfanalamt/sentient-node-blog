@@ -23,4 +23,6 @@ id: 7
 
 > "I **dont think** that AI will turn Ultron and rebel against us. **The risk is that it does exactly what we tell it to do.**"
 
-[functional morality](https://go.gale.com/ps/i.do?p=AONE&u=googlescholar&id=GALE|A427482858&v=2.1&it=r&sid=AONE&asid=e03dd0dd)
+[1][biased-ai](https://www.logically.ai/articles/5-examples-of-biased-ai)
+
+[2][functional-morality](https://go.gale.com/ps/i.do?p=AONE&u=googlescholar&id=GALE|A427482858&v=2.1&it=r&sid=AONE&asid=e03dd0dd)
