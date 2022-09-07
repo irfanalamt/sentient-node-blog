@@ -30,7 +30,9 @@ const Appbar = () => {
 
   return (
     <AppBar sx={{ mb: 1, backgroundColor: '#4897d8' }} position='static'>
-      <Container sx={{ display: 'flex', alignItems: 'center' }}>
+      <Container
+        sx={{ display: 'flex', alignItems: 'center', position: 'relative' }}
+      >
         <Tooltip title=''>
           <Typography
             variant='h6'
@@ -52,6 +54,7 @@ const Appbar = () => {
             <Face6RoundedIcon
               sx={{
                 color: setColor(),
+                position: 'absolute',
                 backgroundColor: '#efebe9',
                 boxShadow: 1,
                 borderRadius: 5,
