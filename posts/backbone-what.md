@@ -14,4 +14,5 @@ id: 2
 - Largest brain-to-body ratio of any **invertibrate**. Larger than many vertebrates but not mammals.
 - Can **problem-solve, plan** for the future and **use tools**.
 - Capable of **play**! Playing is something intelligent animals do.
-- It is a privilege to share this planet with them.
+
+> ⚡ It is a privilege to share this planet with them.

@@ -16,4 +16,6 @@ id: 9
 
 > "This is a **present** from a **small, distant world,** a token of our sounds, our science, our images, our music, our **thoughts** and our **feelings**. We are attempting to survive our **time** so we may live **into yours**." - President Jimmy Carter on the _Voyager golden record_
 
+> ⚡ The golden Record is more about what it represents than what it contains. It was a statement on humanity's place in the universe.
+
 [1][golden-record](https://voyager.jpl.nasa.gov/golden-record/)

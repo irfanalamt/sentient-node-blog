@@ -14,4 +14,5 @@ id: 3
 - The anti-lock braking system(**ABS**) uses computer-controlled procedures to keep the vehicle in the **static friction range** rather than the weaker force of dynamic friction.
 - The stopping distance is increased because dynamic friction has a lower value than static friction.
 - The **stopping distance** is proportional to the **square of the velocity**. That is, your stopping distance is squared when you travel twice as fast!
-- Best solution: drive slower.
+
+> ⚡ Best solution: drive slower.

@@ -21,7 +21,7 @@ id: 7
 
 - As robots become more autonomous and AI surpasses human capabilities in many ways, the need for roboethics standards becomes more pressing.
 
-> "I **dont think** that AI will turn Ultron and rebel against us. **The risk is that it does exactly what we tell it to do.**"
+> ⚡ I **dont think** that AI will turn Ultron and rebel against us. **The risk is that it does exactly what we tell it to do.**
 
 [1][biased-ai](https://www.logically.ai/articles/5-examples-of-biased-ai)
 
