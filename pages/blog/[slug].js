@@ -13,6 +13,7 @@ import {
 } from '@mui/material';
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { useState } from 'react';
 
 const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
@@ -52,8 +53,9 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
             sx={{ color: 'white', backgroundColor: '#506D2F' }}
             color='primary'
             variant='contained'
+            size='small'
           >
-            Go back
+            <ArrowBackIcon />
           </Button>
         </Link>
         {ifLiked ? (
