@@ -8,8 +8,10 @@ import {
   CardMedia,
   CardContent,
   CardActions,
+  Tooltip,
 } from '@mui/material';
 import StickyNote2RoundedIcon from '@mui/icons-material/StickyNote2Rounded';
+import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 
@@ -70,21 +72,25 @@ const Post = ({ post, handleClick }) => {
       />
       <CardContent>
         <Typography sx={{ fontSize: '0.92rem' }} variant='body1'>
-          <StickyNote2RoundedIcon sx={{ fontSize: '1rem', color: '#2A2922' }} />{' '}
+          <StickyNote2RoundedIcon
+            sx={{ fontSize: '1.1rem', color: '#2A2922' }}
+          />{' '}
           {post.frontMatter.excerpt}
         </Typography>
       </CardContent>
       <CardActions>
         <Link href={`/blog/${post.slug}`}>
-          <Button
-            sx={{ color: '#F3EBDD', mx: 1, backgroundColor: '#7D5642' }}
-            color='primary'
-            variant='contained'
-            size='small'
-            onClick={handleClick}
-          >
-            Read more
-          </Button>
+          <Tooltip title='Read more' placement='right-end'>
+            <Button
+              sx={{ mx: 1, backgroundColor: '#7D5642' }}
+              color='primary'
+              variant='contained'
+              size='small'
+              onClick={handleClick}
+            >
+              <ReadMoreIcon sx={{ color: '#F3EBDD' }} />
+            </Button>
+          </Tooltip>
         </Link>
       </CardActions>
     </Card>
