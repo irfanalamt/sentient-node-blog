@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 const Appbar = () => {
   return (
-    <AppBar sx={{ mb: 1, backgroundColor: '#4897d8' }} position='static'>
+    <AppBar sx={{ mb: 1, backgroundColor: '#fcfbf8' }} position='static'>
       <Container sx={{ display: 'flex', alignItems: 'center' }}>
         <Tooltip title=''>
           <Typography
@@ -18,7 +18,7 @@ const Appbar = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#2A2922',
               textDecoration: 'none',
               alignItems: 'center',
             }}
@@ -26,7 +26,7 @@ const Appbar = () => {
             Sentient Node
             <Face6RoundedIcon
               sx={{
-                color: 'black',
+                color: '#2A2922',
                 backgroundColor: '#efebe9',
                 boxShadow: 1,
                 borderRadius: 5,
@@ -36,7 +36,7 @@ const Appbar = () => {
           </Typography>
         </Tooltip>
         <Avatar
-          sx={{ ml: 'auto' }}
+          sx={{ ml: 'auto', boxShadow: 1 }}
           alt='Developer Photo'
           src='/images/avatar/1.jpg'
         />

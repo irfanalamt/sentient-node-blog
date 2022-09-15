@@ -46,10 +46,11 @@ export default function Home({ posts }) {
     <>
       <Paper
         sx={{
-          backgroundImage: `url(/images/walls/1.jpg)`,
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
+          // backgroundImage: `url(/images/walls/1.jpg)`,
+          // backgroundSize: 'cover',
+          // backgroundRepeat: 'no-repeat',
+          // backgroundPosition: 'center',
+          backgroundColor: '#2A2922',
           height: 'max-content-height',
           padding: 1,
           position: 'relative',
@@ -61,7 +62,7 @@ export default function Home({ posts }) {
           transition={{ delay: 0.3, duration: 0.5 }}
         >
           <Typography
-            sx={{ color: 'white', mt: 2, mx: 2, fontSize: '2rem' }}
+            sx={{ color: '#F3EBDD', mt: 2, mx: 2, fontSize: '2rem' }}
             align='left'
             variant='h5'
           >
@@ -69,14 +70,14 @@ export default function Home({ posts }) {
           </Typography>
         </motion.div>
         <Typography
-          sx={{ mx: 2, color: 'white', fontSize: '1.2rem' }}
+          sx={{ mx: 2, color: '#F3EBDD', fontSize: '1.2rem' }}
           variant='subtitle1'
           align='left'
         >
           Here I inscribe things that bring me awe.
         </Typography>
         <Typography
-          sx={{ mx: 2, color: 'white', fontSize: '1rem' }}
+          sx={{ mx: 2, color: '#F3EBDD', fontSize: '1rem' }}
           variant='body1'
           align='left'
         >
@@ -84,7 +85,7 @@ export default function Home({ posts }) {
         </Typography>
         <Box sx={{ mx: 2, my: 1, display: 'flex', gap: 1.1 }}>
           <Avatar
-            sx={{ bgcolor: '#673ab7', boxShadow: 1, width: 35, height: 35 }}
+            sx={{ bgcolor: '#728a58', boxShadow: 1, width: 34, height: 34 }}
           >
             <ScienceOutlinedIcon
               sx={{
@@ -95,10 +96,10 @@ export default function Home({ posts }) {
 
           <Avatar
             sx={{
-              bgcolor: '#e91e63',
+              bgcolor: '#728a58',
               boxShadow: 1,
-              width: 35,
-              height: 35,
+              width: 34,
+              height: 34,
             }}
           >
             <PsychologyAltIcon
@@ -108,7 +109,7 @@ export default function Home({ posts }) {
             />
           </Avatar>
           <Avatar
-            sx={{ bgcolor: '#cddc39', boxShadow: 1, width: 35, height: 35 }}
+            sx={{ bgcolor: '#728a58', boxShadow: 1, width: 34, height: 34 }}
           >
             <Diversity1OutlinedIcon
               sx={{

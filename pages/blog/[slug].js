@@ -37,7 +37,7 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
       </Typography>
 
       <Paper
-        sx={{ pl: 1, pr: 3, py: 1, my: 1 }}
+        sx={{ pl: 1, pr: 3, py: 1, my: 1, fontSize: '1rem' }}
         dangerouslySetInnerHTML={{ __html: parsedContent }}
       ></Paper>
       <Box
@@ -49,15 +49,15 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
       >
         <Link href='/'>
           <Button
-            sx={{ color: 'white', backgroundColor: '#F8A055' }}
-            color='secondary'
+            sx={{ color: 'white', backgroundColor: '#506D2F' }}
+            color='primary'
             variant='contained'
           >
             Go back
           </Button>
         </Link>
         {ifLiked ? (
-          <Avatar sx={{ backgroundColor: '#dcedc8', boxShadow: 1 }}>
+          <Avatar sx={{ backgroundColor: '#fdfdfb', boxShadow: 1 }}>
             <FavoriteRoundedIcon
               onClick={() => {
                 setIfLiked(false);
@@ -71,7 +71,7 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
         ) : (
           <Avatar
             sx={{
-              backgroundColor: '#dcedc8',
+              backgroundColor: '#fdfdfb',
               boxShadow: 1,
             }}
           >

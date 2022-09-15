@@ -31,7 +31,7 @@ const Post = ({ post, handleClick }) => {
         mx: 'auto',
         my: 2,
         py: 1,
-        backgroundColor: '#fafafa',
+        backgroundColor: '#fcfbf8',
       }}
       elevation={2}
     >
@@ -50,7 +50,8 @@ const Post = ({ post, handleClick }) => {
                 width: 'max-content',
                 borderRadius: 1,
                 px: 1,
-                backgroundColor: '#F8A055',
+                color: 'white',
+                backgroundColor: '#506D2F',
               }}
               gutterBottom
               variant='h6'
@@ -69,15 +70,15 @@ const Post = ({ post, handleClick }) => {
         alt=''
       />
       <CardContent>
-        <Typography variant='body2'>
-          <StickyNote2RoundedIcon sx={{ fontSize: 15 }} />{' '}
+        <Typography sx={{ fontSize: '0.9rem' }} variant='body1'>
+          <StickyNote2RoundedIcon sx={{ fontSize: '1rem' }} />{' '}
           {post.frontMatter.excerpt}
         </Typography>
       </CardContent>
       <CardActions>
         <Link href={`/blog/${post.slug}`}>
           <Button
-            sx={{ color: '#757575', mx: 1 }}
+            sx={{ color: '#F3EBDD', mx: 1, backgroundColor: '#7D5642' }}
             color='secondary'
             variant='contained'
             size='small'
