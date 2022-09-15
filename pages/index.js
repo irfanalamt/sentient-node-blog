@@ -85,7 +85,7 @@ export default function Home({ posts }) {
         </Typography>
         <Box sx={{ mx: 2, my: 1, display: 'flex', gap: 1.1 }}>
           <Avatar
-            sx={{ bgcolor: '#728a58', boxShadow: 1, width: 34, height: 34 }}
+            sx={{ bgcolor: '#6a1b9a', boxShadow: 1, width: 34, height: 34 }}
           >
             <ScienceOutlinedIcon
               sx={{
@@ -96,7 +96,7 @@ export default function Home({ posts }) {
 
           <Avatar
             sx={{
-              bgcolor: '#728a58',
+              bgcolor: '#ad1457',
               boxShadow: 1,
               width: 34,
               height: 34,
@@ -109,7 +109,7 @@ export default function Home({ posts }) {
             />
           </Avatar>
           <Avatar
-            sx={{ bgcolor: '#728a58', boxShadow: 1, width: 34, height: 34 }}
+            sx={{ bgcolor: '#0277bd', boxShadow: 1, width: 34, height: 34 }}
           >
             <Diversity1OutlinedIcon
               sx={{
@@ -134,8 +134,8 @@ export default function Home({ posts }) {
               position: 'absolute',
               right: 10,
               bottom: 10,
-              color: 'black',
-              backgroundColor: 'white',
+              backgroundColor: '#F3EBDD',
+              color: '#2A2922',
               boxShadow: 1,
               borderRadius: 5,
               fontSize: 18,

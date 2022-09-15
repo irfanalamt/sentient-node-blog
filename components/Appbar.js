@@ -27,7 +27,6 @@ const Appbar = () => {
             <Face6RoundedIcon
               sx={{
                 color: '#2A2922',
-                backgroundColor: '#efebe9',
                 boxShadow: 1,
                 borderRadius: 5,
                 fontSize: 18,

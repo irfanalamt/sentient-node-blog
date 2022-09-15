@@ -48,7 +48,7 @@ const Post = ({ post, handleClick }) => {
                 fontWeight: 'bold',
                 fontFamily: 'sans-serif',
                 width: 'max-content',
-                borderRadius: 1,
+                borderRadius: 0.2,
                 px: 1,
                 color: 'white',
                 backgroundColor: '#506D2F',
@@ -63,15 +63,14 @@ const Post = ({ post, handleClick }) => {
         ></CardHeader>
       </motion.div>
       <CardMedia
-        sx={{ boxShadow: 1 }}
         component='img'
         height='150'
         image={post.frontMatter.cover_image}
         alt=''
       />
       <CardContent>
-        <Typography sx={{ fontSize: '0.9rem' }} variant='body1'>
-          <StickyNote2RoundedIcon sx={{ fontSize: '1rem' }} />{' '}
+        <Typography sx={{ fontSize: '0.92rem' }} variant='body1'>
+          <StickyNote2RoundedIcon sx={{ fontSize: '1rem', color: '#2A2922' }} />{' '}
           {post.frontMatter.excerpt}
         </Typography>
       </CardContent>
@@ -79,7 +78,7 @@ const Post = ({ post, handleClick }) => {
         <Link href={`/blog/${post.slug}`}>
           <Button
             sx={{ color: '#F3EBDD', mx: 1, backgroundColor: '#7D5642' }}
-            color='secondary'
+            color='primary'
             variant='contained'
             size='small'
             onClick={handleClick}
