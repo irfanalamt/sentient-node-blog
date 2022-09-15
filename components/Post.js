@@ -80,17 +80,15 @@ const Post = ({ post, handleClick }) => {
       </CardContent>
       <CardActions>
         <Link href={`/blog/${post.slug}`}>
-          <Tooltip title='Read more' placement='right-end'>
-            <Button
-              sx={{ mx: 1, backgroundColor: '#7D5642' }}
-              color='primary'
-              variant='contained'
-              size='small'
-              onClick={handleClick}
-            >
-              <ReadMoreIcon sx={{ color: '#F3EBDD' }} />
-            </Button>
-          </Tooltip>
+          <Button
+            sx={{ mx: 1, backgroundColor: '#7D5642' }}
+            color='primary'
+            variant='contained'
+            size='small'
+            onClick={handleClick}
+          >
+            <ReadMoreIcon sx={{ color: '#F3EBDD' }} />
+          </Button>
         </Link>
       </CardActions>
     </Card>
