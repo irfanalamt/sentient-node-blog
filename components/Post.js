@@ -50,7 +50,6 @@ const Post = ({ post, handleClick }) => {
                 fontWeight: 'bold',
                 fontFamily: 'sans-serif',
                 width: 'max-content',
-                borderRadius: 0.2,
                 px: 1,
                 color: 'white',
                 backgroundColor: '#506D2F',

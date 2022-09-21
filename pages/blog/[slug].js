@@ -4,11 +4,14 @@ import matter from 'gray-matter';
 import { marked } from 'marked';
 import Link from 'next/link';
 import {
+  Alert,
   Avatar,
   Box,
   Button,
   Container,
+  Fab,
   Paper,
+  Snackbar,
   Typography,
 } from '@mui/material';
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
@@ -18,7 +21,13 @@ import { useState } from 'react';
 
 const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
   const [ifLiked, setIfLiked] = useState(false);
+  const [open, setOpen] = useState(false);
   const parsedContent = marked.parse(content);
+
+  function handleClose() {
+    setOpen(false);
+  }
+
   return (
     <Container>
       <Typography
@@ -58,8 +67,9 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
             <ArrowBackIcon />
           </Button>
         </Link>
+
         {ifLiked ? (
-          <Avatar sx={{ backgroundColor: '#fdfdfb', boxShadow: 1 }}>
+          <Fab size='medium' sx={{ backgroundColor: '#fdfdfb', boxShadow: 1 }}>
             <FavoriteRoundedIcon
               onClick={() => {
                 setIfLiked(false);
@@ -69,9 +79,10 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
                 color: '#ad1457',
               }}
             />
-          </Avatar>
+          </Fab>
         ) : (
-          <Avatar
+          <Fab
+            size='medium'
             sx={{
               backgroundColor: '#fdfdfb',
               boxShadow: 1,
@@ -80,15 +91,21 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
             <FavoriteBorderRoundedIcon
               onClick={() => {
                 setIfLiked(true);
+                setOpen(true);
               }}
               sx={{
                 fontSize: '2.2rem',
                 color: '#ad1457',
               }}
             />
-          </Avatar>
+          </Fab>
         )}
       </Box>
+      <Snackbar open={open} autoHideDuration={5000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity='info'>
+          YOU are awesome. ✨
+        </Alert>
+      </Snackbar>
     </Container>
   );
 };
