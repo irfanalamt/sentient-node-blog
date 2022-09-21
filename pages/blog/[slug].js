@@ -19,12 +19,14 @@ import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import BlurOnIcon from '@mui/icons-material/BlurOn';
 import { useRef, useState } from 'react';
+import Slide from '@mui/material/Slide';
 
 const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
   const [ifLiked, setIfLiked] = useState(false);
   const [open, setOpen] = useState(false);
   const [toast, setToast] = useState('');
   const parsedContent = marked.parse(content);
+  const [transition, setTransition] = useState(undefined);
 
   const randomNumber = useRef(null);
 
@@ -45,6 +47,10 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
     console.log('randomNumber: ' + randomNumber);
     setToast(toastContent[randomNumber]);
   };
+
+  function TransitionLeft(props) {
+    return <Slide {...props} direction='right' />;
+  }
 
   return (
     <Container>
@@ -109,6 +115,7 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
             <FavoriteBorderRoundedIcon
               onClick={() => {
                 setIfLiked(true);
+                setTransition(() => TransitionLeft);
                 setOpen(true);
                 generateRandomToast();
               }}
@@ -121,21 +128,22 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
         )}
       </Box>
       <Snackbar
-        sx={{ mb: 4 }}
+        sx={{ mb: '35vh' }}
         open={open}
         autoHideDuration={2000}
         onClose={handleClose}
+        TransitionComponent={transition}
       >
         <Alert onClose={handleClose} severity='info'>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Typography
-              sx={{ display: 'inline', mr: 1, fontSize: '1rem' }}
+              sx={{ display: 'inline', mr: 0.5, fontSize: '1rem' }}
               variant='subtitle2'
             >
               {toast}
             </Typography>
             <BlurOnIcon
-              sx={{ display: 'inline', fontSize: '1.5rem', color: '#e53935' }}
+              sx={{ display: 'inline', fontSize: '1.5rem', color: '#f57f17' }}
             />
           </Box>
         </Alert>
