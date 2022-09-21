@@ -16,3 +16,5 @@ id: 2
 - Capable of **play**! Playing is something intelligent animals do.
 
 > ⚡ It is a privilege to share this planet with them.
+
+[1][intelligent octopi](https://www.scienceabc.com/nature/animals/how-smart-is-an-octopus.html)

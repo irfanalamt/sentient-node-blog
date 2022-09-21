@@ -16,3 +16,5 @@ id: 3
 - The **stopping distance** is proportional to the **square of the velocity**. That is, your stopping distance is squared when you travel twice as fast!
 
 > ⚡ Best solution: drive slower.
+
+[1][class notes](https://classnotes.org.in/class-8/friction/static-sliding-rolling-friction/#:~:text=In%20static%20friction%20the%20object%20is%20actually%20not,kept%20on%20the%20horizontal%20surface%20of%20a%20table.)

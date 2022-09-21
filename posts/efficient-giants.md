@@ -16,3 +16,5 @@ id: 1
 - This law applies to almost all living things, from blue whales to single cells.
 - That is quite impressive because a simple equation can be applied across the animal and plant kingdoms!
 - The larger an animal is, the more **efficient** it is.
+
+[1][biological scaling](https://www.britannica.com/science/allometry#ref1029706)

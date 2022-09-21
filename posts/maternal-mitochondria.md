@@ -22,3 +22,5 @@ id: 8
 - Because only **female mtDNA** survives in offspring, it is possible to trace an organism's genetic lineage through its maternal evolutionary line.
 
 > ⚡Thanks mother, for your **_love and mitochondria_**.
+
+[1][magic of mitochondria](https://biobeat.nigms.nih.gov/2020/05/the-maternal-magic-of-mitochondria/)
