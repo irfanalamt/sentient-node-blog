@@ -101,7 +101,12 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
           </Fab>
         )}
       </Box>
-      <Snackbar open={open} autoHideDuration={5000} onClose={handleClose}>
+      <Snackbar
+        sx={{ mb: 3 }}
+        open={open}
+        autoHideDuration={5000}
+        onClose={handleClose}
+      >
         <Alert onClose={handleClose} severity='info'>
           YOU are awesome. ✨
         </Alert>
