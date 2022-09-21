@@ -17,16 +17,34 @@ import {
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import { useState } from 'react';
+import BlurOnIcon from '@mui/icons-material/BlurOn';
+import { useRef, useState } from 'react';
 
 const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
   const [ifLiked, setIfLiked] = useState(false);
   const [open, setOpen] = useState(false);
+  const [toast, setToast] = useState('');
   const parsedContent = marked.parse(content);
 
-  function handleClose() {
-    setOpen(false);
-  }
+  const randomNumber = useRef(null);
+
+  const handleClose = () => setOpen(false);
+
+  const generateRandomNumber = () => Math.floor(Math.random() * 5);
+
+  const toastContent = [
+    'YOU are awesome.',
+    'Give me back my unicorn.',
+    'Sisyphus is happy.',
+    'Life is good.',
+    'wingardium leviosa.',
+  ];
+
+  const generateRandomToast = () => {
+    const randomNumber = Math.floor(Math.random() * 5);
+    console.log('randomNumber: ' + randomNumber);
+    setToast(toastContent[randomNumber]);
+  };
 
   return (
     <Container>
@@ -92,6 +110,7 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
               onClick={() => {
                 setIfLiked(true);
                 setOpen(true);
+                generateRandomToast();
               }}
               sx={{
                 fontSize: '2.2rem',
@@ -102,13 +121,23 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
         )}
       </Box>
       <Snackbar
-        sx={{ mb: 3 }}
+        sx={{ mb: 4 }}
         open={open}
-        autoHideDuration={2500}
+        autoHideDuration={2000}
         onClose={handleClose}
       >
         <Alert onClose={handleClose} severity='info'>
-          YOU are awesome. ✨
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <Typography
+              sx={{ display: 'inline', mr: 1, fontSize: '1rem' }}
+              variant='subtitle2'
+            >
+              {toast}
+            </Typography>
+            <BlurOnIcon
+              sx={{ display: 'inline', fontSize: '1.5rem', color: '#e53935' }}
+            />
+          </Box>
         </Alert>
       </Snackbar>
     </Container>
