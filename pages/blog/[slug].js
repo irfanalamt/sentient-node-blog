@@ -69,11 +69,10 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
       >
         {title}
       </Typography>
-
-      <Paper
-        sx={{ pr: 3, py: 1, my: 1, fontSize: '1.03rem' }}
+      <Container
+        sx={{ pl: 1, pr: 3, py: 1, my: 1, fontSize: '1.03rem' }}
         dangerouslySetInnerHTML={{ __html: parsedContent }}
-      ></Paper>
+      ></Container>
       <Box
         sx={{
           display: 'flex',

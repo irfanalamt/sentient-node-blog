@@ -29,7 +29,7 @@ const Post = ({ post, handleClick }) => {
   return (
     <Card
       sx={{
-        maxWidth: 350,
+        width: 340,
         mx: 'auto',
         my: 2,
         py: 1,
