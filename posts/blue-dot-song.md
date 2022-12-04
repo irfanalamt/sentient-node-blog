@@ -8,14 +8,20 @@ id: 9
 
 <img src='/images/posts/img9.jpg' width='310' alt='earth-abstract' />
 
-- [Voyager1](https://en.wikipedia.org/wiki/Voyager_1) was a NASA space probe that was launched to explore the interstellar area beyond our solar system's outer planets. It is the **farthest human-made** object from Earth.
-- It is now 157 AU away from Earth. That is far! (1AU = distance b/w Earth and Sun) and it still rings back home!
-- It contains a **golden record** that was created to encapsulate the essence of humanity and explain it to future alien spacefarers who come across it. So a group of brilliant scientists put together a collection of sounds to accomplish just that.
-- It includes **natural sounds**, a **baby's cry**, a **kiss**, **greetings** in a variety of languages, and one whale language. Contains over 100 **analog-encoded visuals** that describe ourselves and what we are.
-- A graphic on the record's aluminium cover describes **how to play** it and **where it comes from.**
+- **On August 20th, 1977**, we sent one of the most remarkable pieces of human technology out into the cosmos, onto a voyage towards eternity. It was a sound recording, gold plated and embed with information about the human race, destined to drift into the depths of space, never to be seen again.
 
-> "This is a **present** from a **small, distant world,** a token of our sounds, our science, our images, our music, our **thoughts** and our **feelings**. We are attempting to survive our **time** so we may live **into yours**." - President Jimmy Carter on the _Voyager golden record_
+- This strange artifact, known as The Golden Record, was the result of an initiative started in the late 1970s by a small team of scientists and engineers, led by **Carl Sagan**. The team's mission was to send to outer space a collection of sounds, images, and other information that could act as a **time capsule of human culture and achievement**.
 
-> ⚡ The golden Record is more about what it represents than what it contains. It was a statement on humanity's place in the universe.
+- The records on the Golden Record contain a variety of songs and natural sounds, ranging from birds chirping to whale sounds captured from the ocean. Among the selection is also a variety of clips from traditional and classical music from different cultures, as well as recordings of spoken greetings in 55 different languages, mostly from Earth but also a few from other planets.
+
+- The images imprinted on the Golden Record provide a snapshot of human civilization, with an abundance of hand-drawn stick figures and photos of famous monuments, monuments like Stonehenge, the Great Wall of China, the Taj Mahal, and the Egyptian pyramids. Additionally, images of scientific landmarks and even a drawing of a man and a woman can be seen on the record.
+
+- The record also contain 112 pages of text detailing human scientific and cultural achievement. This includes mathematical equations, astronomical maps, human DNA structures, and a few scientific explanations about the record itself. The text also contains information about Earth and its people, including photographs of plants and animals, maps, and descriptions of the solar system and its planets.
+
+- The Golden Record has been called an “armchair time machine”, paving a path of exploration and discovery that doesn’t just exist in the here and now, but instead carries **a piece of us out into the mysterious universe**. And as we hurl it deeper and deeper into the dark void, we have little doubt that one day, another species will find it. When they do, they'll be welcomed to discover the endless beauty of human life, the triumphs of human science, and perhaps most of all the everlasting **hope of a distant species, reaching out for someone to hear them.**
+
+> ⚡ Golden Record is the ultimate symbol of human exploration and the drive to reach out beyond our own little corner of the universe.
 
 [1][golden-record](https://voyager.jpl.nasa.gov/golden-record/)
+
+[2][voyager1](https://en.wikipedia.org/wiki/Voyager_1)
