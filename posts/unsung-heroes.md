@@ -18,4 +18,4 @@ id: 10
 
 - But phytoplankton are not just heroes - they are also surprisingly adaptable. Capable of surviving in a variety of environments, including those with changing depths, temperatures, salinity and light conditions, phytoplankton can naturally respond to their surroundings, making them **both resilient and resourceful**.
 
-> ⚡ The next time you look out at the ocean, take a second to appreciate these little critters. It's thanks to their hard work that we have the environment we know and love. It's time for us to show our gratitude.
+> ⚡ The next time you look out at the ocean, take a second to appreciate these little critters. It's thanks to their hard work that we have the environment we know and love.
