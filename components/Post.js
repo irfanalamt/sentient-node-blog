@@ -70,11 +70,14 @@ const Post = ({ post, handleClick }) => {
         alt=''
       />
       <CardContent>
-        <Typography sx={{ fontSize: '0.92rem' }} variant='body1'>
+        <Typography sx={{ fontSize: '0.95rem', ml: 0.1 }} variant='body1'>
+          {post.frontMatter.excerpt}{' '}
           <StickyNote2RoundedIcon
-            sx={{ fontSize: '1.1rem', color: '#2A2922' }}
-          />{' '}
-          {post.frontMatter.excerpt}
+            sx={{
+              fontSize: '1rem',
+              color: '#e2e1df',
+            }}
+          />
         </Typography>
       </CardContent>
       <CardActions>

@@ -1,7 +1,7 @@
 ---
 title: 'Maternal mitochondria'
 date: 'August 29 2022'
-excerpt: "Mitochondria- the cell's powerhouse. Because paternal mitochondria are destroyed shortly after fertilization, we get our mitochondria entirely from our mothers."
+excerpt: 'ATP all day, every day.'
 cover_image: '/images/posts/img8.jpg'
 id: 8
 ---

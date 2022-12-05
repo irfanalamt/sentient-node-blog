@@ -1,7 +1,7 @@
 ---
 title: 'pale-blue-dot.mp3'
 date: 'September 07 2022'
-excerpt: 'Imagine developing a series of sounds to describe the human story on Earth to extraterrestrials. That is exactly what we did in 1977.'
+excerpt: 'Let us explore the universe and take a little bit of Earth with us.'
 cover_image: '/images/posts/img9.jpg'
 id: 9
 ---
