@@ -6,7 +6,7 @@ cover_image: '/images/posts/img11.jpg'
 id: 10
 ---
 
-<img src='/images/posts/img11.jpg' width='310' alt='phytoplankton-abstract' />
+<img src='/images/posts/img11.jpg' width='310' alt='moon-abstract' />
 
 Ah, the Moon. It has inspired poets, lovers and adventurers alike since the dawn of human kind.
 
