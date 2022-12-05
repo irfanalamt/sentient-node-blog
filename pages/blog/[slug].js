@@ -20,6 +20,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import BlurOnIcon from '@mui/icons-material/BlurOn';
 import { useRef, useState } from 'react';
 import Slide from '@mui/material/Slide';
+import Head from 'next/head';
 
 const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
   const [ifLiked, setIfLiked] = useState(false);
@@ -38,6 +39,7 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
     'YOU are awesome.',
     'Give me back my unicorn.',
     'Sisyphus is happy.',
+    'Love you tooo.',
     'Life is good.',
     'wingardium leviosa.',
   ];
@@ -71,12 +73,9 @@ const PostPage = ({ frontMatter: { title, cover_image }, slug, content }) => {
       </Typography>
       <Container
         sx={{
-          pl: 1,
-          pr: 2,
           py: 1,
           my: 1,
           fontSize: '1.05rem',
-          fontFamily: 'Helvetica, sans-serif',
         }}
         dangerouslySetInnerHTML={{ __html: parsedContent }}
       ></Container>

@@ -76,13 +76,6 @@ export default function Home({ posts }) {
         >
           Here I inscribe things that bring me awe.
         </Typography>
-        <Typography
-          sx={{ mx: 2, color: '#F3EBDD', fontSize: '1rem' }}
-          variant='body1'
-          align='left'
-        >
-          {`#PassionatelyCurious`}
-        </Typography>
         <Box sx={{ mx: 2, my: 1, display: 'flex', gap: 1.1 }}>
           <Avatar
             sx={{ bgcolor: '#6a1b9a', boxShadow: 1, width: 34, height: 34 }}
