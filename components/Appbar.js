@@ -17,13 +17,13 @@ const Appbar = () => {
               my: 2,
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              letterSpacing: '.2rem',
               color: '#2A2922',
               textDecoration: 'none',
               alignItems: 'center',
             }}
           >
-            Sentient Node
+            SentientNode
             <Face6RoundedIcon
               sx={{
                 color: '#2A2922',
