@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 import { Box, Button, Container, Typography } from '@mui/material';
 import Face6RoundedIcon from '@mui/icons-material/Face6Rounded';
 
-function Copyright() {
+function CurrentDay() {
+  const options = { weekday: 'long' };
+  const currDate = new Date();
   return (
     <Typography variant='body2' color='text.secondary' align='center'>
-      {'Copyright © '}
-      {new Date().getFullYear()}
-      {'.'}
+      {new Intl.DateTimeFormat('en-US', options).format(currDate)}
     </Typography>
   );
 }
@@ -60,7 +60,7 @@ function Footer({ description, title }) {
         >
           irfanalamt@gmail.com
         </Typography>
-        <Copyright />
+        <CurrentDay />
       </Container>
     </Box>
   );

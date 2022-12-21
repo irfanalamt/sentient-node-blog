@@ -41,7 +41,7 @@ export default function MyApp(props) {
         >
           <Component {...pageProps} />
         </motion.div>
-        <Footer title='Sentient Node' description={``} />
+        <Footer title='SentientNode' description={``} />
       </ThemeProvider>
     </CacheProvider>
   );

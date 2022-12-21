@@ -17,7 +17,6 @@ export default function Home({ posts }) {
     handleScrollPosition();
   }, []);
 
-  console.log(posts);
   function handleClick() {
     sessionStorage.setItem('scrollPosition', window.pageYOffset);
   }

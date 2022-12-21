@@ -70,11 +70,11 @@ const Post = ({ post, handleClick }) => {
         alt=''
       />
       <CardContent>
-        <Typography sx={{ fontSize: '0.95rem', ml: 0.1 }} variant='body1'>
+        <Typography sx={{ fontSize: '0.96rem', ml: 0.1 }} variant='body1'>
           {post.frontMatter.excerpt}{' '}
           <StickyNote2RoundedIcon
             sx={{
-              fontSize: '1rem',
+              fontSize: '0.9rem',
               color: '#e2e1df',
             }}
           />
@@ -83,13 +83,13 @@ const Post = ({ post, handleClick }) => {
       <CardActions>
         <Link href={`/blog/${post.slug}`}>
           <Button
-            sx={{ mx: 1, backgroundColor: '#7D5642' }}
+            sx={{ ml: 'auto', mr: 1, backgroundColor: '#7D5642' }}
             color='primary'
             variant='contained'
             size='small'
             onClick={handleClick}
           >
-            <ReadMoreIcon sx={{ color: '#F3EBDD' }} />
+            <ReadMoreIcon sx={{ color: '#F3EBDD', fontSize: '1.3rem' }} />
           </Button>
         </Link>
       </CardActions>
