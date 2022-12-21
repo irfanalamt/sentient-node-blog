@@ -1,20 +1,21 @@
-import { Box, Container, Tooltip, Typography } from '@mui/material';
-import Link from 'next/link';
+import { Button, Container, Typography } from '@mui/material';
+import { useRouter } from 'next/router';
+import HomeIcon from '@mui/icons-material/Home';
 
 const Error404 = () => {
+  const router = useRouter();
   return (
     <Container
       sx={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        py: 5,
         flexDirection: 'column',
       }}
     >
       <Typography
         sx={{
-          fontSize: '2rem',
+          fontSize: '1.8rem',
           my: 1,
           width: 'max-content',
           backgroundColor: '#FA6E59',
@@ -26,23 +27,15 @@ const Error404 = () => {
         Error 404
       </Typography>
 
-      <Typography sx={{ fontSize: '2rem' }} variant='body1'>
-        {`Lost? Let's return`}
+      <Typography
+        sx={{ fontSize: '1.6rem', mx: 'auto', textAlign: 'center' }}
+        variant='body1'
+      >
+        Uh oh! Looks like you got lost in cyberspace.
       </Typography>
-      <Link href='/'>
-        <Tooltip title='HOME'>
-          <Typography
-            sx={{
-              fontSize: '2rem',
-              ml: 1,
-              textDecoration: 'underline',
-              color: '#FFDB5C',
-            }}
-          >
-            home.
-          </Typography>
-        </Tooltip>
-      </Link>
+      <Button onClick={() => router.push('/')}>
+        <HomeIcon sx={{ fontSize: '2.4rem', color: '#2A2922' }} />
+      </Button>
     </Container>
   );
 };
