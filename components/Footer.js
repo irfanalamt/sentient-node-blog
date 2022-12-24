@@ -9,8 +9,7 @@ function Footer({ description, title }) {
       sx={{
         width: '100%',
         textAlign: 'center',
-        position: 'relative',
-        bottom: 0,
+
         marginX: 'auto',
         bgcolor: '#F3F3F0',
       }}
