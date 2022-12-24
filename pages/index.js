@@ -31,12 +31,12 @@ export default function Home({ posts }) {
   }
   return (
     <>
-      <Paper
+      <Box
         sx={{
-          backgroundColor: '#2A2922',
           height: 'max-content-height',
           padding: 1,
           position: 'relative',
+          backgroundColor: '#F3F3F0',
         }}
       >
         <motion.div
@@ -45,7 +45,7 @@ export default function Home({ posts }) {
           transition={{ delay: 0.3, duration: 0.5 }}
         >
           <Typography
-            sx={{ color: '#F3EBDD', mt: 2, mx: 2, fontSize: '2rem' }}
+            sx={{ color: '#2A2731', mt: 2, mx: 2 }}
             align='left'
             variant='h5'
           >
@@ -53,45 +53,38 @@ export default function Home({ posts }) {
           </Typography>
         </motion.div>
         <Typography
-          sx={{ mx: 2, color: '#F3EBDD', fontSize: '1.2rem' }}
+          sx={{ mx: 2, color: '#2A2731', fontSize: '0.85rem' }}
           variant='subtitle1'
           align='left'
         >
-          Here I inscribe things that bring me awe.
+          Here, I share the things that bring me awe.
         </Typography>
         <Box sx={{ mx: 2, my: 1, display: 'flex', gap: 1.1 }}>
           <Avatar
-            sx={{ bgcolor: '#6a1b9a', boxShadow: 1, width: 34, height: 34 }}
+            sx={{ boxShadow: 1, bgcolor: '#E69D25', height: 30, width: 30 }}
           >
-            <ScienceOutlinedIcon
-              sx={{
-                fontSize: '1.6rem',
-              }}
-            />
+            <ScienceOutlinedIcon sx={{ color: '#2A2731', fontSize: 18 }} />
           </Avatar>
 
           <Avatar
             sx={{
-              bgcolor: '#ad1457',
               boxShadow: 1,
-              width: 34,
-              height: 34,
+              bgcolor: '#E69D25',
+              height: 30,
+              width: 30,
             }}
           >
             <PsychologyAltIcon
               sx={{
-                fontSize: '1.6rem',
+                color: '#2A2731',
+                fontSize: 18,
               }}
             />
           </Avatar>
           <Avatar
-            sx={{ bgcolor: '#0277bd', boxShadow: 1, width: 34, height: 34 }}
+            sx={{ boxShadow: 1, bgcolor: '#E69D25', height: 30, width: 30 }}
           >
-            <Diversity1OutlinedIcon
-              sx={{
-                fontSize: '1.4rem',
-              }}
-            />
+            <Diversity1OutlinedIcon sx={{ color: '#2A2731', fontSize: 18 }} />
           </Avatar>
         </Box>
         <motion.div
@@ -118,8 +111,8 @@ export default function Home({ posts }) {
             }}
           />
         </motion.div>
-      </Paper>
-      <Grid sx={{ justifyContent: 'center' }} container>
+      </Box>
+      <Grid sx={{ justifyContent: 'center', bgcolor: '#F3F3F0' }} container>
         {posts.map((post, i) => (
           <Grid key={i} sm={12} md={5} lg={4}>
             <Post handleClick={handleClick} key={i} post={post} />

@@ -7,19 +7,17 @@ function Footer({ description, title }) {
     <Box
       component='footer'
       sx={{
-        mt: 4,
-        py: 6,
         width: '100%',
         textAlign: 'center',
         position: 'relative',
         bottom: 0,
-        maxWidth: '50vw',
         marginX: 'auto',
+        bgcolor: '#F3F3F0',
       }}
     >
       <Container maxWidth='xs'>
         <Typography
-          sx={{ fontFamily: 'monospace', fontSize: '1rem' }}
+          sx={{ fontFamily: 'monospace', fontSize: '1rem', pt: 2 }}
           variant='subtitle2'
           align='center'
           gutterBottom

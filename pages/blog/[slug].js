@@ -47,7 +47,7 @@ const PostPage = ({ frontMatter: { title }, slug, content }) => {
   }
 
   return (
-    <Container>
+    <Container sx={{ bgcolor: 'F3F3F0' }}>
       <Typography
         sx={{
           fontSize: '1.8rem',
@@ -56,7 +56,9 @@ const PostPage = ({ frontMatter: { title }, slug, content }) => {
           width: 'max-content',
           borderRadius: 1,
           px: 1,
-          backgroundColor: '#FFDB5C',
+          mt: 1,
+          backgroundColor: '#E69D25',
+          color: '#2A2731',
         }}
         gutterBottom
         variant='h6'
@@ -80,30 +82,30 @@ const PostPage = ({ frontMatter: { title }, slug, content }) => {
       >
         <Link href='/'>
           <Button
-            sx={{ color: 'white', backgroundColor: '#506D2F' }}
+            sx={{ color: '#F3F3F0', backgroundColor: '#7297C1' }}
             color='primary'
             variant='contained'
             size='small'
           >
-            <ArrowBackIcon />
+            <ArrowBackIcon sx={{ fontSize: '1.3rem' }} />
           </Button>
         </Link>
 
         {ifLiked ? (
-          <Fab size='medium' sx={{ backgroundColor: '#fdfdfb', boxShadow: 1 }}>
+          <Fab size='small' sx={{ backgroundColor: '#fdfdfb', boxShadow: 1 }}>
             <FavoriteRoundedIcon
               onClick={() => {
                 setIfLiked(false);
               }}
               sx={{
-                fontSize: '2.2rem',
+                fontSize: '1.5rem',
                 color: '#ad1457',
               }}
             />
           </Fab>
         ) : (
           <Fab
-            size='medium'
+            size='small'
             sx={{
               backgroundColor: '#fdfdfb',
               boxShadow: 1,
@@ -117,7 +119,7 @@ const PostPage = ({ frontMatter: { title }, slug, content }) => {
                 generateRandomToast();
               }}
               sx={{
-                fontSize: '2.2rem',
+                fontSize: '1.5rem',
                 color: '#ad1457',
               }}
             />

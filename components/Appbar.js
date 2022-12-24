@@ -1,10 +1,27 @@
-import { AppBar, Typography, Container, Avatar } from '@mui/material';
+import {
+  AppBar,
+  Typography,
+  Container,
+  Avatar,
+  Toolbar,
+  IconButton,
+} from '@mui/material';
 import Face6RoundedIcon from '@mui/icons-material/Face6Rounded';
 
 const Appbar = () => {
   return (
-    <AppBar sx={{ mb: 1, backgroundColor: '#fcfbf8' }} position='static'>
-      <Container sx={{ display: 'flex', alignItems: 'center' }}>
+    <AppBar
+      sx={{ backgroundColor: '#7297C1', boxShadow: 'none' }}
+      position='static'
+    >
+      <Container
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          maxWidth: '1200px',
+          margin: '0 auto',
+        }}
+      >
         <Typography
           variant='h6'
           noWrap
@@ -16,7 +33,7 @@ const Appbar = () => {
             fontFamily: 'monospace',
             fontWeight: 700,
             letterSpacing: '.2rem',
-            color: '#2A2922',
+            color: '#2A2731',
             textDecoration: 'none',
             alignItems: 'center',
           }}
@@ -24,16 +41,15 @@ const Appbar = () => {
           SentientNode
           <Face6RoundedIcon
             sx={{
-              color: '#2A2922',
-              boxShadow: 1,
-              borderRadius: 5,
+              color: '#2A2731',
+              boxShadow: 'none',
               fontSize: 18,
             }}
           />
         </Typography>
 
         <Avatar
-          sx={{ ml: 'auto', boxShadow: 1 }}
+          sx={{ ml: 'auto', boxShadow: 'none' }}
           alt='Developer Photo'
           src='/images/avatar/1.jpg'
         />

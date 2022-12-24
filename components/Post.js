@@ -11,6 +11,7 @@ import {
   Tooltip,
 } from '@mui/material';
 import StickyNote2RoundedIcon from '@mui/icons-material/StickyNote2Rounded';
+import CookieIcon from '@mui/icons-material/Cookie';
 import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
@@ -33,7 +34,7 @@ const Post = ({ post, handleClick }) => {
         mx: 'auto',
         my: 2,
         py: 1,
-        backgroundColor: '#fcfbf8',
+        backgroundColor: '#f4f4f1',
       }}
       elevation={2}
     >
@@ -46,18 +47,24 @@ const Post = ({ post, handleClick }) => {
           title={
             <Typography
               sx={{
-                fontSize: '1.2rem',
-                fontWeight: 'bold',
                 fontFamily: 'sans-serif',
                 width: 'max-content',
                 px: 1,
-                color: 'white',
-                backgroundColor: '#506D2F',
+                color: '#2A2731',
+                fontWeight: 'bold',
+                display: 'flex',
+                alignItems: 'center',
               }}
               gutterBottom
-              variant='h6'
+              variant='subtitle1'
               ref={inViewRef}
             >
+              <CookieIcon
+                sx={{
+                  color: '#2A2731',
+                  mr: 0.4,
+                }}
+              />
               {post.frontMatter.title}
             </Typography>
           }
@@ -70,26 +77,20 @@ const Post = ({ post, handleClick }) => {
         alt=''
       />
       <CardContent>
-        <Typography sx={{ fontSize: '0.96rem', ml: 0.1 }} variant='body1'>
-          {post.frontMatter.excerpt}{' '}
-          <StickyNote2RoundedIcon
-            sx={{
-              fontSize: '0.9rem',
-              color: '#e2e1df',
-            }}
-          />
+        <Typography sx={{ ml: 0.1, color: '#2A2731' }} variant='body2'>
+          {post.frontMatter.excerpt}
         </Typography>
       </CardContent>
       <CardActions>
         <Link href={`/blog/${post.slug}`}>
           <Button
-            sx={{ ml: 'auto', mr: 1, backgroundColor: '#7D5642' }}
+            sx={{ ml: 'auto', mr: 1, backgroundColor: '#7297C1' }}
             color='primary'
             variant='contained'
             size='small'
             onClick={handleClick}
           >
-            <ReadMoreIcon sx={{ color: '#F3EBDD', fontSize: '1.3rem' }} />
+            <ReadMoreIcon sx={{ color: '#F3F3F0', fontSize: '1.3rem' }} />
           </Button>
         </Link>
       </CardActions>
