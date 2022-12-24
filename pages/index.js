@@ -61,30 +61,30 @@ export default function Home({ posts }) {
         </Typography>
         <Box sx={{ mx: 2, my: 1, display: 'flex', gap: 1.1 }}>
           <Avatar
-            sx={{ boxShadow: 1, bgcolor: '#F3F3F0', height: 35, width: 35 }}
+            sx={{ boxShadow: 1, bgcolor: '#2A2731', height: 35, width: 35 }}
           >
-            <ScienceOutlinedIcon sx={{ color: '#7297C1', fontSize: 18 }} />
+            <ScienceOutlinedIcon sx={{ fontSize: 18 }} />
           </Avatar>
 
           <Avatar
             sx={{
               boxShadow: 1,
-              bgcolor: '#F3F3F0',
+              bgcolor: '#2A2731',
               height: 35,
               width: 35,
             }}
           >
             <PsychologyAltIcon
               sx={{
-                color: '#7297C1',
+                color: '#F3F3F0',
                 fontSize: 18,
               }}
             />
           </Avatar>
           <Avatar
-            sx={{ boxShadow: 1, bgcolor: '#F3F3F0', height: 35, width: 35 }}
+            sx={{ boxShadow: 1, bgcolor: '#2A2731', height: 35, width: 35 }}
           >
-            <Diversity1OutlinedIcon sx={{ color: '#7297C1', fontSize: 18 }} />
+            <Diversity1OutlinedIcon sx={{ color: '#F3F3F0', fontSize: 18 }} />
           </Avatar>
         </Box>
         <motion.div

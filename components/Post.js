@@ -63,6 +63,7 @@ const Post = ({ post, handleClick }) => {
                 sx={{
                   color: '#2A2731',
                   mr: 0.4,
+                  fontSize: 18,
                 }}
               />
               {post.frontMatter.title}

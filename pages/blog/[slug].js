@@ -34,7 +34,7 @@ const PostPage = ({ frontMatter: { title }, content }) => {
     'Give me back my unicorn.',
     'Sisyphus is happy.',
     'Love you tooo.',
-    'Life is good.',
+    'haha.',
     'wingardium leviosa.',
   ];
 
@@ -48,102 +48,104 @@ const PostPage = ({ frontMatter: { title }, content }) => {
   }
 
   return (
-    <Container sx={{ bgcolor: '#F3F3F0' }}>
-      <Typography
-        sx={{
-          color: '#2A2731',
-          display: 'flex',
-          alignItems: 'center',
-          pt: 1,
-        }}
-        gutterBottom
-        variant='h6'
-      >
-        <CookieIcon sx={{ mr: 0.4 }} /> {title}
-      </Typography>
-      <Container
-        sx={{
-          py: 1,
-          my: 1,
-          fontSize: '1.05rem',
-        }}
-        dangerouslySetInnerHTML={{ __html: parsedContent }}
-      ></Container>
-      <Box
-        sx={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-        }}
-      >
-        <Link href='/'>
-          <Button
-            sx={{ color: '#F3F3F0', backgroundColor: '#7297C1' }}
-            color='primary'
-            variant='contained'
-            size='small'
-          >
-            <ArrowBackIcon sx={{ fontSize: '1.3rem' }} />
-          </Button>
-        </Link>
-
-        {ifLiked ? (
-          <Fab size='small' sx={{ backgroundColor: '#fdfdfb', boxShadow: 1 }}>
-            <FavoriteRoundedIcon
-              onClick={() => {
-                setIfLiked(false);
-              }}
-              sx={{
-                fontSize: '1.5rem',
-                color: '#ad1457',
-              }}
-            />
-          </Fab>
-        ) : (
-          <Fab
-            size='small'
-            sx={{
-              backgroundColor: '#fdfdfb',
-              boxShadow: 1,
-            }}
-          >
-            <FavoriteBorderRoundedIcon
-              onClick={() => {
-                setIfLiked(true);
-                setTransition(() => TransitionLeft);
-                setOpen(true);
-                generateRandomToast();
-              }}
-              sx={{
-                fontSize: '1.5rem',
-                color: '#ad1457',
-              }}
-            />
-          </Fab>
-        )}
-      </Box>
-      <Snackbar
-        sx={{ mb: '35vh' }}
-        open={open}
-        autoHideDuration={2000}
-        onClose={handleClose}
-        TransitionComponent={transition}
-      >
-        <Alert onClose={handleClose} severity='info'>
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Typography
-              sx={{ display: 'inline', mr: 0.5, fontSize: '1rem' }}
-              variant='subtitle2'
+    <Box bgcolor='#F3F3F0'>
+      <Container>
+        <Typography
+          sx={{
+            color: '#2A2731',
+            display: 'flex',
+            alignItems: 'center',
+            pt: 1,
+          }}
+          gutterBottom
+          variant='h6'
+        >
+          <CookieIcon sx={{ mr: 0.4, fontSize: 18 }} /> {title}
+        </Typography>
+        <Container
+          sx={{
+            py: 1,
+            my: 1,
+            fontSize: '1.05rem',
+          }}
+          dangerouslySetInnerHTML={{ __html: parsedContent }}
+        ></Container>
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+          }}
+        >
+          <Link href='/'>
+            <Button
+              sx={{ color: '#F3F3F0', backgroundColor: '#7297C1' }}
+              color='primary'
+              variant='contained'
+              size='small'
             >
-              {toast}
-            </Typography>
-            <BlurOnIcon
-              sx={{ display: 'inline', fontSize: '1.5rem', color: '#f57f17' }}
-            />
-          </Box>
-        </Alert>
-      </Snackbar>
-    </Container>
+              <ArrowBackIcon sx={{ fontSize: '1.3rem' }} />
+            </Button>
+          </Link>
+
+          {ifLiked ? (
+            <Fab size='small' sx={{ backgroundColor: '#E69D25', boxShadow: 1 }}>
+              <FavoriteRoundedIcon
+                onClick={() => {
+                  setIfLiked(false);
+                }}
+                sx={{
+                  fontSize: '1.5rem',
+                  color: '#ad1457',
+                }}
+              />
+            </Fab>
+          ) : (
+            <Fab
+              size='small'
+              sx={{
+                backgroundColor: '#F3F3F0',
+                boxShadow: 1,
+              }}
+            >
+              <FavoriteBorderRoundedIcon
+                onClick={() => {
+                  setIfLiked(true);
+                  setTransition(() => TransitionLeft);
+                  setOpen(true);
+                  generateRandomToast();
+                }}
+                sx={{
+                  fontSize: '1.5rem',
+                  color: '#ad1457',
+                }}
+              />
+            </Fab>
+          )}
+        </Box>
+        <Snackbar
+          sx={{ mb: '35vh' }}
+          open={open}
+          autoHideDuration={2000}
+          onClose={handleClose}
+          TransitionComponent={transition}
+        >
+          <Alert onClose={handleClose} severity='info'>
+            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+              <Typography
+                sx={{ display: 'inline', mr: 0.5, fontSize: '1rem' }}
+                variant='subtitle2'
+              >
+                {toast}
+              </Typography>
+              <BlurOnIcon
+                sx={{ display: 'inline', fontSize: '1.5rem', color: '#f57f17' }}
+              />
+            </Box>
+          </Alert>
+        </Snackbar>
+      </Container>
+    </Box>
   );
 };
 
