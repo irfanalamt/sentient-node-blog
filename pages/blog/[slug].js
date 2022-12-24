@@ -53,8 +53,8 @@ const PostPage = ({ frontMatter: { title }, content }) => {
         sx={{
           color: '#2A2731',
           display: 'flex',
+          alignItems: 'center',
           pt: 1,
-          alignment: 'center',
         }}
         gutterBottom
         variant='h6'
