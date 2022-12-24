@@ -3,7 +3,7 @@ title: 'My rodent friend'
 date: 'December 14 2022'
 excerpt: 'sharing more than just our homes.'
 cover_image: '/images/posts/img18.jpg'
-id: 18
+id: 17
 ---
 
 <img src='/images/posts/img18.jpg' width='310' alt='rat-human-brain-art' />

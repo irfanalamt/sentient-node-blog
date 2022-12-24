@@ -2,6 +2,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import BlurOnIcon from '@mui/icons-material/BlurOn';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
+import CookieIcon from '@mui/icons-material/Cookie';
 import {
   Alert,
   Box,
@@ -19,7 +20,7 @@ import Link from 'next/link';
 import path from 'path';
 import { useState } from 'react';
 
-const PostPage = ({ frontMatter: { title }, slug, content }) => {
+const PostPage = ({ frontMatter: { title }, content }) => {
   const [ifLiked, setIfLiked] = useState(false);
   const [open, setOpen] = useState(false);
   const [toast, setToast] = useState('');
@@ -47,23 +48,18 @@ const PostPage = ({ frontMatter: { title }, slug, content }) => {
   }
 
   return (
-    <Container sx={{ bgcolor: 'F3F3F0' }}>
+    <Container sx={{ bgcolor: '#F3F3F0' }}>
       <Typography
         sx={{
-          fontSize: '1.8rem',
-          fontWeight: 'bold',
-          fontFamily: 'sans-serif',
-          width: 'max-content',
-          borderRadius: 1,
-          px: 1,
-          mt: 1,
-          backgroundColor: '#E69D25',
           color: '#2A2731',
+          display: 'flex',
+          pt: 1,
+          alignment: 'center',
         }}
         gutterBottom
         variant='h6'
       >
-        {title}
+        <CookieIcon sx={{ mr: 0.4 }} /> {title}
       </Typography>
       <Container
         sx={{

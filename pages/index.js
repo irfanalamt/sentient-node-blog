@@ -1,6 +1,6 @@
 import Face6RoundedIcon from '@mui/icons-material/Face6Rounded';
 import ScienceOutlinedIcon from '@mui/icons-material/ScienceOutlined';
-import { Avatar, Box, Paper, Typography } from '@mui/material';
+import { Avatar, Box, Typography } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import { motion } from 'framer-motion';
 import fs from 'fs';
@@ -53,7 +53,7 @@ export default function Home({ posts }) {
           </Typography>
         </motion.div>
         <Typography
-          sx={{ mx: 2, color: '#2A2731', fontSize: '0.85rem' }}
+          sx={{ mx: 2, color: '#2A2731' }}
           variant='subtitle1'
           align='left'
         >
