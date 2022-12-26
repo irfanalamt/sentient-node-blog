@@ -18,4 +18,4 @@ But Einstein's didn't stop there. He also proposed that **gravity** is actually 
 
 But wait, there's more! Einstein's theory of special relativity also showed us how matter and energy are linked, leading to the famous equation **E=mc^2**, which tells us that **matter and energy** are just two forms of the **same thing**. This opened the door to previously undiscovered sources of energy, like nuclear power. So not only did Einstein change the way we think about space and time, he also helped us harness the power of the universe.
 
-Einstein's theory of relativity was the ultimate flex. He came in and completely changed the way we think about the universe. ⚡He's like the Michael Jordan of science.
+Einstein's theory of relativity was the ultimate flex.⚡He came in and completely changed the way we think about the universe.
