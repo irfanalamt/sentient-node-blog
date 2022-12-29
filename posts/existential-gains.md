@@ -1,7 +1,7 @@
 ---
 title: 'existential gains'
 date: 'December 28 2022'
-excerpt: 'from iron to enlightenment.'
+excerpt: 'soul searching in the squat rack.'
 cover_image: '/images/posts/img20.jpg'
 id: 20
 ---
