@@ -33,43 +33,38 @@ const Post = ({ post, handleClick }) => {
         width: 340,
         mx: 'auto',
         my: 2,
-        py: 1,
-        backgroundColor: '#f4f4f1',
+        backgroundColor: '#f7f7f9',
       }}
-      elevation={2}
+      elevation={1}
     >
       <motion.div
         animate={isInView ? 'active' : 'inactive'}
         variants={variants}
       >
-        <CardHeader
-          disableTypography={true}
-          title={
-            <Typography
-              sx={{
-                fontFamily: 'sans-serif',
-                width: 'max-content',
-                px: 1,
-                color: '#2A2731',
-                fontWeight: 'bold',
-                display: 'flex',
-                alignItems: 'center',
-              }}
-              gutterBottom
-              variant='subtitle1'
-              ref={inViewRef}
-            >
-              <CookieIcon
-                sx={{
-                  color: '#2A2731',
-                  mr: 0.4,
-                  fontSize: 18,
-                }}
-              />
-              {post.frontMatter.title}
-            </Typography>
-          }
-        ></CardHeader>
+        <Typography
+          sx={{
+            fontFamily: 'sans-serif',
+            width: 'max-content',
+            color: '#2A2731',
+            fontWeight: 'bold',
+            display: 'flex',
+            alignItems: 'center',
+            my: 2,
+            ml: 1,
+          }}
+          gutterBottom
+          variant='subtitle1'
+          ref={inViewRef}
+        >
+          <CookieIcon
+            sx={{
+              color: '#2A2731',
+              mr: 0.4,
+              fontSize: 18,
+            }}
+          />
+          {post.frontMatter.title}
+        </Typography>
       </motion.div>
       <CardMedia
         component='img'
@@ -78,20 +73,20 @@ const Post = ({ post, handleClick }) => {
         alt=''
       />
       <CardContent>
-        <Typography sx={{ ml: 0.1, color: '#2A2731' }} variant='body2'>
+        <Typography sx={{ color: '#2A2731' }} variant='body2'>
           {post.frontMatter.excerpt}
         </Typography>
       </CardContent>
       <CardActions>
         <Link href={`/blog/${post.slug}`}>
           <Button
-            sx={{ ml: 'auto', mr: 1, backgroundColor: '#7297C1' }}
+            sx={{ ml: 'auto', backgroundColor: '#7297C1' }}
             color='primary'
             variant='contained'
             size='small'
             onClick={handleClick}
           >
-            <ReadMoreIcon sx={{ color: '#F3F3F0', fontSize: '1.3rem' }} />
+            <ReadMoreIcon sx={{ color: '#F3F3F0', fontSize: '1.2rem' }} />
           </Button>
         </Link>
       </CardActions>

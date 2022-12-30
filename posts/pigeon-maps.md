@@ -10,7 +10,7 @@ id: 4
 
 These birds are able to navigate their way back to their roosts, even when they are thousands of kilometers away. But how do they do it?
 
-Well, it turns out that pigeons possess both **compass**(fly in the right direction) and map(compare where they are to where they want to be) mechanisms to help them find their way home. They are able to fly in the right direction using the **position and angle of the sun**, as well as relying on Earth's magnetic field for **magnetoreception**. Some even believe that pigeons use **low-frequency infrasound** produced by the **oceans and Earth's crust** to guide them on their journey.
+Well, it turns out that pigeons possess both **compass**(fly in the right direction) and **map**(compare where they are to where they want to be) mechanisms to help them find their way home. They are able to fly in the right direction using the **position and angle of the sun**, as well as relying on Earth's magnetic field for **magnetoreception**. Some even believe that pigeons use **low-frequency infrasound** produced by the **oceans and Earth's crust** to guide them on their journey.
 
 But the real question is, how do they know where "home" is? It's a mystery that has yet to be fully understood, but one theory suggests that pigeons have an incredible memory for visual landmarks, allowing them to compare their current location to where they want to be.
 
