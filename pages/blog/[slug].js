@@ -64,8 +64,6 @@ const PostPage = ({ frontMatter: { title }, content }) => {
         </Typography>
         <Container
           sx={{
-            py: 1,
-            my: 1,
             fontSize: '1.05rem',
           }}
           dangerouslySetInnerHTML={{ __html: parsedContent }}
