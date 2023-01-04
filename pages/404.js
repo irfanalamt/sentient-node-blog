@@ -5,7 +5,7 @@ import HomeIcon from '@mui/icons-material/Home';
 const Error404 = () => {
   const router = useRouter();
   return (
-    <Box sx={{ backgroundColor: '#F3F3F0' }}>
+    <Box sx={{ backgroundColor: '#F3F3F0', height: '80vh', py: 12 }}>
       <Container
         sx={{
           display: 'flex',
