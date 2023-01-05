@@ -14,4 +14,4 @@ First of all, you'd better be prepared to get jacked. As the largest known T-Rex
 
 But hey, at least you'll be able to make up for it with your **killer chomping power**. T-Rexes had some of the strongest jaws ever recorded, so if you ever find yourself in a pinch, you can just chomp your way out of it. Just be prepared to go it alone - T-Rexes were **solitary creatures**, so you won't have any dinosaur BFFs to hang out with.
 
-So there you have it, a glimpse into the thrilling life of a T-Rex. Good luck on your journey.
+⚡there you have it, a glimpse into the thrilling life of a T-Rex.

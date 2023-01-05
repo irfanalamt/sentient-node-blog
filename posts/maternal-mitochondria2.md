@@ -16,6 +16,6 @@ They also play a role in **programmed cell death**(apoptosis). A way for the bod
 
 Here's something really cool - because **only female mtDNA** (mitochondrial DNA) is passed on to offspring, it's possible to trace an organism's genetic lineage through its maternal evolutionary line.
 
-> ⚡So next time you're feeling grateful, be sure to give a shoutout to your mom (and her mom, and her mom...) for their **love and mitochondria**.
+⚡So next time you're feeling grateful, be sure to give a shoutout to your mom (and her mom, and her mom...) for their **love and mitochondria**.
 
 [1][magic of mitochondria](https://biobeat.nigms.nih.gov/2020/05/the-maternal-magic-of-mitochondria/)

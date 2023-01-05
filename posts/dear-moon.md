@@ -18,4 +18,4 @@ The Moon has a wide range of **effects** on Earth's life. It, for example, **reg
 
 But perhaps the most interesting thing about the Moon is that **it always keeps the same side facing us**. This phenomenon is known as **tidal locking**. It’s caused by the gravitational pull of the Earth, which keeps the Moon’s rotation in check.
 
-> ⚡If you're looking for a perfect getaway, perhaps it's best to opt for somewhere a little more temperate than the Moon - preferably one with an atmosphere.
+⚡If you're looking for a perfect getaway, perhaps it's best to opt for somewhere a little more temperate than the Moon - preferably one with an atmosphere.

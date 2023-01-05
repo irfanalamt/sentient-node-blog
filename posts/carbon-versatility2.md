@@ -16,4 +16,4 @@ But it's not just Carbon that has four valence electrons. In fact, all the eleme
 
 So the next time you think about your body composition and all that Oxygen floating around, just remember that it's the tiny amount of Carbon that really makes us who we are.
 
-> ⚡Carbon: the foundation of all life on Earth and the driving force behind some of the most complex molecules in the universe. Don't underestimate the power of 18%.
+⚡Carbon: the foundation of all life on Earth and the driving force behind some of the most complex molecules in the universe. Don't underestimate the power of 18%.

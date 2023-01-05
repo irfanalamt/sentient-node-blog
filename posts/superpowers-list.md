@@ -32,4 +32,4 @@ The incredible ability to **understand and relate to the feelings of others**. W
 <br>
 <br>
 
-> ⚡Flying and invisibility may be cool, but who needs those when you have an array of superpowers that no other species can claim.
+⚡Flying and invisibility may be cool, but who needs those when you have an array of superpowers that no other species can claim.

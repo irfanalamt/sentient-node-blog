@@ -16,4 +16,4 @@ Plus, eggs are **incredibly easy to prepare**. All you need is a pan, some oil o
 
 But perhaps the most remarkable thing about eggs is their ability to go from **boring to exciting with just a few simple ingredients**. For example, a simple egg dish can be transformed into a gourmet meal with the addition of a few vegetables, herbs, and spices. Plus, eggs are a great way to stretch your food budget since they’re **relatively inexpensive compared to other proteins**.
 
-> ⚡So the next time you're feeling eggstremely hungry, you know what to do.
+⚡So the next time you're feeling eggstremely hungry, you know what to do.

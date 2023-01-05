@@ -15,7 +15,7 @@ According to researcher **Catherine Crockford**,_"chimps will give more warnings
 
 But let's not act like this is some groundbreaking discovery. It's not like we humans don't also exhibit similar behaviors when it comes to protecting those we care about. I mean, have you ever tried to mess with someone's best friend? You better believe you'll get an earful (and possibly a punch to the face).
 
-It's truly impressive to see that animals are capable of such advanced social understanding and problem-solving skills. It just goes to show that we have a lot to learn from our fellow inhabitants of this planet, even if they do throw poop at us from time to time.
+⚡It's truly impressive to see that animals are capable of such advanced social understanding and problem-solving skills. It just goes to show that we have a lot to learn from our fellow inhabitants of this planet, even if they do throw poop at us from time to time.
 
 [1][vocalizing in chimpanzees](https://www.science.org/doi/10.1126/sciadv.1701742)
 

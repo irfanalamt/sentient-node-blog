@@ -18,4 +18,4 @@ We might not want to admit it, but **rats and humans** actually share **many sim
 
 🧠Finally, rats and humans also share many of the same behaviors. For example, both species can **learn and remember**, and they both exhibit social behaviors such as **aggression** and **cooperation**. In addition, both species are capable of forming attachments to other individuals.
 
-> ⚡While the differences in our brains are obvious, it’s interesting to note just how similar our brains actually are.
+⚡While the differences in our brains are obvious, it’s interesting to note just how similar our brains actually are.
