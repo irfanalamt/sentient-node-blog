@@ -58,7 +58,7 @@ const Post = ({ post, handleClick }) => {
         >
           <CookieIcon
             sx={{
-              color: '#2A2731',
+              color: '#8A5C43',
               mr: 0.4,
               fontSize: 18,
             }}

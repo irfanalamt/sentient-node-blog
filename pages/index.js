@@ -49,7 +49,8 @@ export default function Home({ posts }) {
             align='left'
             variant='h5'
           >
-            {`I'm Irfan. Welcome to my blog!`}
+            {`I'm Irfan.`}
+            <br /> {`Welcome to my blog!`}
           </Typography>
         </motion.div>
         <Typography

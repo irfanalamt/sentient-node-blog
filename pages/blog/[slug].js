@@ -60,7 +60,8 @@ const PostPage = ({ frontMatter: { title }, content }) => {
           gutterBottom
           variant='h6'
         >
-          <CookieIcon sx={{ mr: 0.4, fontSize: 18 }} /> {title}
+          <CookieIcon sx={{ mr: 0.4, fontSize: 18, color: '#8A5C43' }} />{' '}
+          {title}
         </Typography>
         <Container
           sx={{
