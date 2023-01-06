@@ -1,8 +1,8 @@
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import BlurOnIcon from '@mui/icons-material/BlurOn';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 import CookieIcon from '@mui/icons-material/Cookie';
+import KeyboardReturnIcon from '@mui/icons-material/KeyboardReturn';
 import {
   Alert,
   Box,
@@ -36,10 +36,11 @@ const PostPage = ({ frontMatter: { title }, content }) => {
     'Love you tooo.',
     'haha.',
     'wingardium leviosa.',
+    'love received.',
   ];
 
   const generateRandomToast = () => {
-    const randomNumber = Math.floor(Math.random() * 5);
+    const randomNumber = Math.floor(Math.random() * 7);
     setToast(toastContent[randomNumber]);
   };
 
@@ -66,6 +67,7 @@ const PostPage = ({ frontMatter: { title }, content }) => {
         <Container
           sx={{
             fontSize: '1.05rem',
+            pb: 4,
           }}
           dangerouslySetInnerHTML={{ __html: parsedContent }}
         ></Container>
@@ -76,17 +78,6 @@ const PostPage = ({ frontMatter: { title }, content }) => {
             justifyContent: 'space-between',
           }}
         >
-          <Link href='/'>
-            <Button
-              sx={{ color: '#F3F3F0', backgroundColor: '#7297C1' }}
-              color='primary'
-              variant='contained'
-              size='small'
-            >
-              <ArrowBackIcon sx={{ fontSize: '1.3rem' }} />
-            </Button>
-          </Link>
-
           {ifLiked ? (
             <Fab size='small' sx={{ backgroundColor: '#E69D25', boxShadow: 1 }}>
               <FavoriteRoundedIcon
@@ -121,6 +112,16 @@ const PostPage = ({ frontMatter: { title }, content }) => {
               />
             </Fab>
           )}
+          <Link href='/'>
+            <Button
+              sx={{ color: '#F3F3F0', backgroundColor: '#7297C1' }}
+              color='primary'
+              variant='contained'
+              size='small'
+            >
+              <KeyboardReturnIcon sx={{ fontSize: '1.3rem' }} />
+            </Button>
+          </Link>
         </Box>
         <Snackbar
           sx={{ mb: '35vh' }}
