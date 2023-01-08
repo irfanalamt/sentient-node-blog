@@ -10,7 +10,7 @@ id: 20
 
 As I was grunting through my reps the other day, I couldn't help but think about the deeper meaning of it all. No, I'm not talking about the benefits of squats or the science behind muscle growth. I'm talking about the big questions of life, the ones that keep us up at night and make us wonder what it's all about.
 
-You know, the classic existentialist conundrums: Why are we here? What's the point of all this sweat and strain? Is it really worth it to spend hours in the gym, day after day, chiseling our bodies into the perfect physical form?
+the classic existentialist conundrums: Why are we here? What's the point of all this sweat and strain? Is it really worth it to spend hours in the gym, day after day, chiseling our bodies into the perfect physical form?
 
 On one hand, you could argue that the pursuit of physical perfection is a futile, meaningless endeavor. After all, our bodies are temporary and will eventually succumb to the ravages of time and decay. So what's the point of all this hard work and discipline.
 

@@ -16,7 +16,7 @@ The Golden Record is like a **modern-day version of the Rosetta Stone**. It’s 
 
 As you probably guessed, there’s no ‘space-age music’ on the record. Instead, the team went for something a little bit more timeless — they chose music from all of the Earth’s cultures, from all corners of the world. They chose music from popular composers of their age, as well as jazz, blues, and classical music. The team also included some of the noises that everyday people make – like laughter, thunder, and a few other sounds of Earth that could be interpreted by any intelligent species.
 
-⚡ The Golden Record isn’t a mere bit of nostalgia — it’s a beacon of hope and a reminder to all of humanity that even in the furthest depths of space, we’re still connected.
+⚡ it isn’t a mere bit of nostalgia — it’s a beacon of hope.
 
 [1][golden-record](https://voyager.jpl.nasa.gov/golden-record/)
 

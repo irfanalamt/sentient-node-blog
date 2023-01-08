@@ -17,6 +17,6 @@ Dynamic friction is the **weaker force**, and it's what happens when the tire's 
 
 But don't worry, we have the brilliant minds at the anti-lock braking system (**ABS**) to thank for keeping us safe. These computer-controlled procedures keep the **vehicle in the static friction range**, which is much stronger than dynamic friction.
 
-So the next time you're driving and you feel like pushing the limits, just remember: static friction is your friend, and dynamic friction is not. And if all else fails, just ⚡remember the age-old solution: drive slower.
+⚡so static friction is your friend, and dynamic friction is not. And if all else fails, just remember the age-old solution: drive slower.
 
 [1][class notes](https://classnotes.org.in/class-8/friction/static-sliding-rolling-friction/#:~:text=In%20static%20friction%20the%20object%20is%20actually%20not,kept%20on%20the%20horizontal%20surface%20of%20a%20table.)

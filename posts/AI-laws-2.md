@@ -16,7 +16,7 @@ But let's say we do have super advanced robots that are able to understand ethic
 
 So what's the solution? Well, it's not exactly clear. Different people have different ideas about what's ethical and what's not, and there's no consensus on where the line should be drawn. Should we give robots the same rights as humans? Should we treat them like property? Should we just pull the plug on the whole AI thing and go back to living in caves? These are all valid questions, and I'm sure there are plenty of other ethical quandaries that I'm not even aware of.
 
-Hopefully we'll figure it all out before the robots rise up and enslave us all. Or, you know, before they just do whatever we tell them to do without any regard for the consequences.⚡Either way, it's sure to be a wild ride.
+⚡we'll figure it all out before the robots rise up and enslave us all. Or, you know, before they just do whatever we tell them to do without any regard for the consequences. Either way, it's sure to be a wild ride.
 
 [1][biased-ai](https://www.logically.ai/articles/5-examples-of-biased-ai)
 

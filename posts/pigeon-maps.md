@@ -18,4 +18,4 @@ But it's not just their homing abilities that make pigeons so special. Did you k
 
 It's no wonder that pigeons have been used for **espionage** purposes during both World Wars. Their incredible sense of direction and cognitive skills make them the perfect secret agents.
 
-So next time you see a pigeon, take a moment to appreciate their impressive navigation skills and ⚡perhaps even give them a nod of respect for their covert operations in the past.
+⚡So take a moment to appreciate their impressive navigation skills and perhaps even give them a nod of respect for their covert operations in the past.

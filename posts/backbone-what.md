@@ -20,6 +20,6 @@ But, if **venom** isn’t enough to keep you away, then you should know that the
 
 And if this reality isn’t enough, one of the most remarkable things about octopuses is that most species have a very short lifespan – usually only about **1-2 years**. So, even if you manage to get your hands on one, the odds are it won’t be with you for very long.
 
-> ⚡ If you’re looking for an animal that’s smart, adaptable, and downright fascinating, look no further than the octopus. Just make sure you keep your jar of pickles out of their reach.
+⚡ If you’re looking for an animal that’s smart, adaptable, and downright fascinating, look no further than the octopus. Just make sure you keep your jar of pickles out of their reach.
 
 [1][intelligent octopi](https://www.scienceabc.com/nature/animals/how-smart-is-an-octopus.html)
