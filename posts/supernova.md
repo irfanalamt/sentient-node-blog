@@ -18,4 +18,6 @@ On the other hand, if a star is **less massive**, it will have a less explosive 
 The cool part: the explosion from a supernova is so powerful that it can create new elements. That's right, **all the heavy elements** in the universe, like gold and silver (and even the iron in your blood), were created by supernovas.
 
 ⚡wasn't jokin' when I told you you take my breath away
-you're a...<ul>-Eminem, "Space Bound"</ul>
+you're a...<br/>&emsp;-Eminem, "Space Bound"
+
+[🔗][astronomy-essentials](https://earthsky.org/astronomy-essentials/definition-what-is-a-supernova/)
